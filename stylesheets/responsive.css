@@ -1,8 +1,22 @@
-@media all and (max-device-width: 1023px) {
+/* @media all and (max-device-width: 1023px) {
 	.s1, .s3 {display: none;}
-}
-@media only screen and (min-device-width: 481px) and (max-device-width: 1023px) {
+} */
+/* @media only screen and (min-device-width: 481px) and (max-device-width: 1023px) {
   .s2 {width: 90%}
+} */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+	body::before {background: url("../images/768_1023.png"); background-size: 1440px;}
+	.big_one {height: 1515px;}
+	.s1, .s3 {display: none;}
+	.s1_2 {position: absolute; width: 100px; height: 100px; background: red; top: 0px; left: 0px;}
+	.big_two {display: none;}
+	.s2 {width: 84.5%; margin-top: 0px; height: 1171px;}
+	.s1_2 {position: relative; width: 100%; height: 357px; opacity: 0.2;}
+	.s2_2 {display: inline-block; position: relative; width: 7.2%; height: 1171px; background: blue;}
+	.s5 {}
+
+
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1279px) {
@@ -24,7 +38,6 @@
   .s1 .d4 {margin-top: 200px; margin-left: 141px;}
   .s1 .d5 {margin-top: 154px; margin-left: 182px;}
   /* .s2 div {transform: scale(1.23);} */
-
   .s2::before {transform: scale(1.17); top: 0px; left: 0px;}
   .s2 {height: 1012px;}
   .s2 .d7 {width: 100%; height: 100%;}
@@ -41,9 +54,14 @@
   .s3 div {transform: scale(1.23);}
   .s3 .d28 {display: none;}
   .s3 .d27 {margin-left: 40px;}
+	.s3 .d29 {right: 10px;}
+	.s3 .d30 {right: 10px;}
+	.s3 .d31 {right: 10px;}
 
-  .s5 {transform: scale(1.2); bottom: 52px; right: -68px;}
-  .s5 .d37 {display: none;}
+  .s5 {transform: scale(1.2); bottom: 52px; right: 10px;}
+  .s5 .d36 {display: none;}
+	.s5 .d37 {margin-left: 110px;}
+
 }
 
 @media only screen and (min-device-width: 1280px) and (max-device-width: 1365px) {
@@ -77,6 +95,9 @@
   .s3 .d26 {bottom: 105px;}
   .s3 .d27 {bottom: 145px;}
   .s3 .d28 {bottom: 190px; width: 148px;}
+
+	.s4 {right: 154px;}
+
 
   /* .s5 {height: 79px; margin-top: -44px; margin-left: 1163px;} */
 }
@@ -112,6 +133,8 @@
   .s3 .d26 {bottom: 105px;}
   .s3 .d27 {bottom: 145px;}
   .s3 .d28 {bottom: 190px; width: 148px;}
+
+	.s4 {right: 154px;}
 
   .s5 {bottom: 39px;}
 }
