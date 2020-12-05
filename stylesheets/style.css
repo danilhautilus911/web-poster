@@ -20,7 +20,7 @@ body::before {
 }
 .big_one {
   width: 1440px;
-  height: 851px;
+  height: 896px;
   display: block;
   position: absolute;
 }
@@ -35,41 +35,44 @@ body::before {
   position: absolute;
 }
 .d1 {
-  height: 574px;
-  width: 109px;
-  margin-top: 37px;
+  height: 67%;
+  width: 37%;
+  margin-top: 13%;
   background: #00B6F4;
 }
 .d2 {
-  height: 174px;
-  width: 86px;
-  margin-top: 260px;
-  margin-left: 109px;
+  height: 20%;
+  width: 30%;
+  margin-top: 88%;
+  margin-left: 37%;
   background: black;
 }
 .d3 {
-  height: 256px;
-  width: 70px;
-  margin-top: 215px;
-  margin-left: 195px;
+  height: 30%;
+  width: 22%;
+  margin-top: 73%;
+  margin-left: 66%;
   background: black;
   border-radius: 50px;
+
 }
 .d4 {
-  height: 333px;
-  width: 70px;
-  margin-top: 180px;
-  margin-left: 230px;
+  height: 39%;
+  width: 23%;
+  margin-top: 61%;
+  margin-left: 77%;
   background: #00B6F4;
   border-radius: 50px;
+
 }
 .d5 {
-  height: 411px;
-  width: 70px;
-  margin-top: 140px;
-  margin-left: 260px;
+  height: 49%;
+  width: 26%;
+  margin-top: 47%;
+  margin-left: 89%;
   background: black;
   border-radius: 50px;
+
 }
 .d6 {
   height: 139px;
@@ -80,7 +83,7 @@ body::before {
 .red_lamp {
   height: 210px;
   width: 220px;
-  bottom: 0px;
+  bottom: 5%;
   margin-left: 50px;
   /* background: red;
   opacity: 0.2; */
@@ -139,58 +142,63 @@ body::before {
   opacity: 1;
 } */
 .d7 {
-  height: 854px;
-  width: 856px;
+  height: 100%;
+  width: 100%;
   position: absolute;
 }
+.d7 img {
+  height: 100%;
+  width: 100%;
+}
 .d8_2 {
-  height: 323px;
-  width: 323px;
-  margin-left: 14px;
-  margin-top: 105px;
+  height: 38%;
+  width: 38%;
+  margin-left: 2%;
+  margin-top: 12.5%;
+  position: absolute;
+}
+.d8_2 div {
   position: absolute;
 }
 .d8 {
-  height: 323px;
-  width: 323px;
+  height: 100%;
+  width: 100%;
   border-radius: 50%;
   background-color: black;
-  position: absolute;
 }
 .d9 {
-  height: 225px;
-  width: 225px;
+  height: 69%;
+  width: 69%;
   border-radius: 50%;
   background-color: #FFD42E;
-  margin-left: 50px;
-  margin-top: 45px;
-  position: absolute;
+  margin-left: 15%;
+  margin-top: 15%;
 }
 .d10 {
-  height: 135px;
-  width: 135px;
+  height: 43%;
+  width: 43%;
   border-radius: 50%;
   background-color: #F24941;
-  margin-left: 95px;
-  margin-top: 90px;
+  margin-left: 28%;
+  margin-top: 28%;
   position: absolute;
 }
 .d11 {
-  height: 52px;
-  width: 52px;
+  height: 6%;
+  width: 6%;
   border-radius: 50%;
   background-color: black;
-  margin-left: 60px;
-  margin-top: 55px;
+  margin-left: 7%;
+  margin-top: 7%;
   position: absolute;
 }
 .d12 {
-  height: 230px;
-  width: 560px;
+  height: 27%;
+  width: 65%;
   border: 50px solid black;
   border-radius: 145px;
-  margin-top: 0px;
-  bottom: 77px;
+  margin-left: 0%;
+  margin-top: 53%;
   position: absolute;
 }
 .d12 div {
@@ -198,50 +206,50 @@ body::before {
   vertical-align: top;
 }
 .d13 {
-  height: 230px;
-  width: 50px;
+  height: 102%;
+  width: 9%;
   background-color: black;
-  margin-left: 25px;
-  margin-top: -2px;
+  margin-left: 4%;
+  /* margin-top: -2px; */
 }
 .d14 {
-  height: 240px;
-  width: 50px;
+  height: 102%;
+  width: 9%;
   background-color: black;
-  margin-left: 125px;
+  margin-left: 23%;
   margin-top: -2px;
 }
 .d15 {
-  height: 240px;
-  width: 50px;
+  height: 102%;
+  width: 9%;
   background-color: black;
-  margin-left: 50px;
+  margin-left: 8%;
   margin-top: -2px;
 }
 .d16 {
-  height: 240px;
-  width: 50px;
+  height: 102%;
+  width: 9%;
   background-color: black;
-  margin-left: 85px;
+  margin-left: 16%;
   margin-top: -2px;
 }
 .d17 {
-  height: 225px;
-  width: 225px;
+  height: 27%;
+  width: 27%;
   border: 55px solid black;
   border-radius: 50%;
-  margin-top: 32px;
-  right: 35px;
+  margin-top: 3%;
+  right: 4%;
   position: absolute;
   z-index: 2;
 }
 .d18 {
-  height: 95px;
-  width: 95px;
+  height: 11%;
+  width: 11%;
   border-radius: 50%;
   background-color: red;
-  margin-top: 187px;
-  right: 73px;
+  margin-top: 22%;
+  right: 9%;
   position: absolute;
 }
 .details {
@@ -252,63 +260,65 @@ body::before {
   bottom: 0px;
 }
 .d19 {
-  height: 52px;
-  width: 52px;
+  height: 6%;
+  width: 6%;
   border-radius: 50%;
   background-color: black;
-  bottom: -62px;
-  right: -179px;
+  bottom: 7%;
+  right: 7%;
   position: absolute;
 }
 .d20{
-  height: 57px;
-  width: 31px;
+  height: 7%;
+  width: 4%;
   border-radius: 50px;
   background-color: black;
   position: absolute;
-  margin-left: -54px;
-  margin-top: -126px;
-  /* right: 329px;
-  bottom: 428px; */
+  right: 38%;
+  bottom: 50%;
 }
 .d21{
-  height: 57px;
-  width: 31px;
+  height: 7%;
+  width: 4%;
   border-radius: 50px;
   background-color: black;
   position: absolute;
-  margin-left: 25px;
-  margin-top: -118px;
+  right: 29%;
+  bottom: 48%;
   transform: rotate(30deg);
 }
 .d22{
-  height: 57px;
-  width: 31px;
+  height: 7%;
+  width: 4%;
   border-radius: 50px;
   background-color: black;
   position: absolute;
-  margin-left: 149px;
-  margin-top: 61px;
+  right: 15%;
+  bottom: 28%;
   transform: rotate(90deg);
 }
 .d23{
-  height: 57px;
-  width: 31px;
+  height: 7%;
+  width: 4%;
   border-radius: 50px;
   background-color: black;
   position: absolute;
-  margin-left: 143px;
-  margin-top: 148px;
+  right: 15%;
+  bottom: 17%;
   transform: rotate(110deg);
 }
 .d24{
-  height: 139px;
-  width: 95px;
+  height: 16%;
+  width: 11%;
   margin-left: 0px;
   margin-top: 0px;
   position: absolute;
-  right: -148px;
-  bottom: 195px;
+  right: 11%;
+  bottom: 38%;
+}
+.d24 img{
+  height: 100%;
+  width: 100%;
 }
 .s3 {
   height: 900px;
@@ -375,15 +385,16 @@ body::before {
   right: 0px;
 }
 .s4 {
-  height: 280px;
-  width: 200px;
+  height: 33%;
+  width: 17%;
   display: inline-block;
   position: absolute;
   vertical-align: top;
   z-index: 1;
   /* margin-left: -34px; */
+
   top: 0px;
-  right: 121px;
+  right: 8.5%;
 }
 .s4 div {
   position: absolute;
@@ -417,7 +428,7 @@ body::before {
   border-radius: 50%;
   opacity: 0.2;
   margin-top: 57px;
-  margin-left: 82px;
+  right: 16%;
 }
 .s5 {
   height: 40px;
@@ -426,7 +437,7 @@ body::before {
   position: absolute;
   vertical-align: top;
   right: 40px;
-  bottom: 0px;
+  bottom: 5%;
 }
 .d36{
   height: 39px;
