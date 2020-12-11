@@ -81,6 +81,8 @@
 
 	.big_two {height: 54%;}
 	.d46 img {width: 100%;}
+	.d38 {width: 30%; height: 21.2%; margin-left: -7%; margin-top: 9.2%; opacity: 0.4;}
+	div.d39 {display: none;}
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1279px) {
@@ -124,6 +126,14 @@
 	.s5 .d37 {margin-left: 58%;}
 
 	.big_two {height: 52.5%;}
+	.s7 {height: 34.5%;}
+	.d38 {width: 37%;}
+	.d44 {margin-left: 36.8%; width: 19%;}
+	.d47 {width: 3%; height: 34%; margin-top: 0; margin-left: 54%;}
+	.d46 {right: 5%; margin-top: 7.5%;}
+	div.d47, div.d48, div.d53, div.d56 {display: none !important;}
+	.d54 {margin-left: 72%;}
+	.d55 {margin-left: 96%;}
 }
 
 @media only screen and (min-device-width: 1280px) and (max-device-width: 1365px) {
@@ -143,7 +153,17 @@
 
 	.s4 {top: 1.7%; right: 9.7%;}
 
-	.big_two {margin-top: -2.5%; height: 55%;}
+	.big_two {margin-top: -2.5%; height: 57%;}
+	.s7 {height: 33%;}
+	.d38 {width: 32%;}
+	.d44 {margin-left: 31.8%; width: 19%;}
+	.d47 {width: 3%; height: 34%; margin-top: 0; margin-left: 54%;}
+	.d46 {right: 3.5%; margin-top: 7.5%;}
+	.d48, .d53, .d56 {display: none;}
+	.d54 {margin-left: 72%;}
+	.d55 {margin-left: 96%;}
+
+	.s8 {height: 55.5%;}
 }
 
 
@@ -172,13 +192,21 @@
 
   .s5 {right: 5%;}
 
-	.big_two {margin-top: -2.5%;}
+	.big_two {margin-top: -2.5%; height: 60%;}
+	.s7 {height: 33.4%;}
+	.d38 {width: 32%;}
+	.d44 {margin-left: 31.8%; width: 19%;}
+	.d47 {width: 3%; height: 34%; margin-top: 0; margin-left: 54%;}
+	.d46 {right: 3.5%; margin-top: 7.5%;}
+	.d48, .d53, .d56 {display: none;}
+	.d54 {margin-left: 74%;}
+	.d55 {margin-left: 98%;}
 }
 
 @media only screen and (min-device-width: 1680px) {
-	/* body {height: 1460px;} */
+	body {height: 1459px;}
 	body::before {background-image: url("../images/1680.png"); }
-	.big_one {margin-top: 3.3%; height: 41.7%;}
+	.big_one {margin-top: 3.3%; height: 44.1%;}
 	.s1 {width: 22%;}
 	.s1 .d1 {width: 33%;}
 	.s1 .d2 {height: 16%; width: 30%; margin-top: 93%; margin-left: 33%;}
@@ -187,7 +215,6 @@
 	.s1 .d6 {margin-top: 1%; margin-left: 53%;}
 	.s1 .d3_2 {height: 23%; width: 22%; margin-top: 83%; margin-left: 57%; background: #00B6F4; border-radius: 50px;}
 	.s1 .red_lamp {width: 64%; margin-left: 15%; margin-top: 192%;}
-
 
 	.s2 {width: 56.3%;}
 	.s2 .d10_2 {height: 20%; width: 20%; border-radius: 50%; background: #FFD42E; position: absolute; margin-top: 40%; margin-left: 40%;}
@@ -212,6 +239,41 @@
 
 	.s7 {height: 31.5%;}
 
+	.big_two {margin-top: -2.4%; height: 55.4%;}
+	.s7 {height: 34%;}
+	.s7 .d38 {width: 34.5%; height: 23%; margin-top: 5%; border-radius: 33px;}
+	.s7 .d38 div {width: 5%; margin-bottom: 1%; height: 73%;}
+	.s7 .d39 {margin-left: 17%; margin-top: 7%;}
+	.s7 .d40 {margin-left: 8%;}
+	.s7 .d41 {margin-left: 8%;}
+	.s7 .d42 {margin-left: 8%;}
+	.s7 .d43 {margin-left: 8%;}
+	.d43_2 {margin-left: 9%; background: black; border-radius: 50px;}
+
+	.s7 .d44 {width: 17.2%; height: 23%; margin-left: 34.8%; margin-top: 5%;}
+	.s7 .d47 {width: 3%; margin-left: 56.5%;}
+	.s7 .d48 {width: 43.5%; margin-top: 5%;}
+	.s7 .d46 {width: 30%; margin-top: 10%;}
+	.s7 .d46 img {width: 94%; margin-top: 4%; height: 81%;}
+
+	.s8 {height: 54.2%;}
+	.d49 {width: 84%; height: 83%; margin-left: 4.5%;}
+	.s8 .d49_2 {height: 9%; width: 7%; margin-top: 8%; position: absolute; background: black;}
+
+	.s9 {height: 12.4%;}
+
+	.d50_1 {width: 33%;}
+	.d50 {margin-left: 7.5%; width: 11%;}
+	.d51 {margin-left: 20.5%; width: 11%;}
+	.d52 {margin-left: 42%; width: 44%;}
+
+	.d53_1 {width: 31%;}
+	.d54 {width: 46%; margin-left: 28%;}
+	.d55 {height: 36%; width: 11%; margin-left: 60%;}
+	.d57 {width: 9.8%; margin-left: 10%;}
+	.d58 {width: 9.8%; margin-left: 22%;}
+	.d59 {width: 53%; margin-left: 38%;}
+	.d60 {margin-left: 32.5%; margin-top: -15.8%;}
 
 }
 
