@@ -6,6 +6,7 @@ body {
  background: white;
  display: block;
  position: relative;
+ padding-top: 1px;
 }
 body::before {
   content: "";
@@ -491,6 +492,7 @@ body::before {
 }
 .s7 div{
   display: inline-block;
+  /* position: absolute; */
 }
 .d38 {
   width: 30%;
