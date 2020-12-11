@@ -479,71 +479,74 @@ body::before {
 }
 .big_two {
   width: 100%;
-  height: 56%;
+  height: 57%;
   display: block;
   position: relative;
   margin-top: -3%;
 }
 .s7 {
-  height: 35.5%;
+  height: 34.9%;
   width: 100%;
   display: flex;
   overflow: hidden;
 }
 .s7 div{
-  display: inline-block;
+  /* display: inline-block; */
   /* position: absolute; */
 }
 .d38 {
   width: 30%;
-  height: 70%;
+  height: 24%;
   margin-left: -4%;
   margin-top: 5.5%;
   background: #C4C4C4;
   border-radius: 38px;
+  position: absolute;
 }
 .d38 div {
   width: 6.5%;
   height: 69%;
+  display: inline-block;
 }
 .d39 {
   margin-left: 19%;
-  margin-top: 0%;
   background: black;
   border-radius: 50px;
+  margin-top: 10%;
 }
 .d40 {
   margin-left: 9%;
-  margin-top: 35px;
+  /* margin-top: 35px; */
   background: black;
   border-radius: 50px;
 }
 .d41 {
   margin-left: 9%;
-  margin-top: 35px;
+  /* margin-top: 35px; */
   background: black;
   border-radius: 50px;
 }
 .d42 {
   margin-left: 9%;
-  margin-top: 35px;
+  /* margin-top: 35px; */
   background: black;
   border-radius: 50px;
 }
 .d43 {
 
   margin-left: 9%;
-  margin-top: 35px;
+  /* margin-top: 35px; */
   background: black;
   border-radius: 50px;
 }
 .d44 {
   width: 19.5%;
-  height: 70%;
+  height: 23.8%;
   border-radius: 50%;
   background-color: #00B6F4;
-  margin-left: 2.8%;
+  margin-left: 28.8%;
   margin-top: 5.7%;
+  position: absolute;
   /* opacity: 0.2; */
 }
 .d44 img{
@@ -575,27 +578,31 @@ body::before {
 }
 .d47 {
   width: 4%;
-  height: 80%;
+  height: 30%;
   background-color: black;
-  margin-left: 3.5%;
+  margin-left: 51.5%;
   margin-top: 5.5%;
+  position: absolute;
 }
 .d48 {
-  width: 44%;
-  height: 13%;
+  width: 45%;
+  height: 4%;
   background-color: black;
   margin-top: 5.5%;
+  right: 0%;
+  position: absolute;
 }
 .s8 {
   width: 100%;
-  height: 56%;
+  height: 55%;
   position: relative;
 }
 .d49 {
   height: 84%;
   width: 86.3%;
-  margin: 0 auto;
+  margin-left: 3%;
   border: 37px solid black;
+  position: absolute;
   /* background-color: red; */
 }
 .s9 {
