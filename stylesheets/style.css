@@ -14,12 +14,25 @@ body::before {
   left: 0;
   top: 0;
   right: 0;
-  background-image: url("../images/Frame_10.png");
+  background-image: url("../images/skelet.png");
   background-size: 100% auto;
   width: 100%;
   height: 100%;
   display: block;
-  opacity: 0.2;
+  opacity: 0;
+  animation: skeletappears 10s infinite linear;
+}
+/* @keyframes skeletappears { */
+  49%{opacity: 0}
+  50%{opacity: 1}
+  59%{opacity: 1}
+  60%{opacity: 0}
+}
+/* @keyframes restdisappears { */
+  49%{opacity: 1}
+  50%{opacity: 0}
+  59%{opacity: 0}
+  60%{opacity: 1}
 }
 .wrapper {
   position: relative;
@@ -60,6 +73,7 @@ body::before {
   width: 37%;
   margin-top: 13%;
   background: #00B6F4;
+  animation: restdisappears 10s infinite linear;
 }
 .d2 {
   height: 20%;
@@ -67,6 +81,7 @@ body::before {
   margin-top: 88%;
   margin-left: 37%;
   background: black;
+  animation: restdisappears 10s infinite linear;
 }
 .d3 {
   height: 30%;
@@ -75,6 +90,7 @@ body::before {
   margin-left: 66%;
   background: black;
   border-radius: 50px;
+  animation: turntoblue 2s infinite ease-in;
 }
 .d4 {
   height: 39%;
@@ -83,7 +99,7 @@ body::before {
   margin-left: 77%;
   background: #00B6F4;
   border-radius: 50px;
-
+  animation: turntoblack 2s infinite ease-in;
 }
 .d5 {
   height: 49%;
@@ -92,13 +108,40 @@ body::before {
   margin-left: 89%;
   background: black;
   border-radius: 50px;
-
+  animation: turntoblue 2s infinite ease-in;
+}
+@keyframes turntoblack {
+  49% {background-color: #00B6F4}
+  50% {background-color: black}
+  100% {background-color: black}
+}
+@keyframes turntoblue {
+  49% {background-color:  black}
+  50% {background-color: #00B6F4}
+  100% {background-color: #00B6F4}
 }
 .d6 {
   height: 15%;
   width: 32%;
   margin-top: 12%;
   margin-left: 50%;
+  animation: bzz 0.2s infinite alternate ease-in-out;
+}
+@keyframes bzz {
+  0%{transform: rotateZ(-1deg)}
+  5%{transform: rotateZ(2deg);}
+  10%{transform: rotateZ(-2deg);}
+  15%{transform: rotateZ(1deg);}
+  70% {transform: scale(1.05) rotateX(30deg);}
+  100% {transform: scale(1.2) rotateX(-30deg);}
+}
+@keyframes bzz2 {
+  0%{transform: rotateZ(-1deg)}
+  5%{transform: rotateZ(2deg);}
+  10%{transform: rotateZ(-2deg);}
+  15%{transform: rotateZ(1deg);}
+  70% {transform: rotateX(30deg);}
+  100% {transform: rotateX(-30deg);}
 }
 .d6 img {
   height: 100%;
@@ -137,9 +180,38 @@ body::before {
   margin-top: 1%;
   margin-left: 2%;
 }
-.d401 img {
-  height: 100%;
-  width: 100%;
+.d401 div {
+  position: absolute;
+  height: 33%;
+  width: 25%;
+  border-radius: 50px;
+  background-color: #F24941;
+  opacity: 0;
+}
+.d401_2 {
+  margin-top: 17%;
+  transform: rotate(45deg);
+  animation: lineappears 4s alternate infinite linear;
+
+}
+.d401_3 {
+  margin-top: 6%;
+  margin-left: 55%;
+  transform: rotate(90deg);
+  animation: lineappears 4s 1s alternate infinite linear;
+
+}
+.d401_4 {
+  margin-top: 7%;
+  margin-left: 79%;
+  transform: rotate(100deg);
+  animation: lineappears 4s 2s alternate infinite linear;
+}
+@keyframes lineappears {
+  49%{opacity: 0;}
+  50%{opacity: 1;}
+  100%{opacity: 1;}
+
 }
 .d41_1 {
   height: 55%;
@@ -150,6 +222,7 @@ body::before {
   background: white;
   opacity: 0.2;
   z-index: 0;
+  animation: lamp1 1s linear alternate infinite;
 }
 .s2 {
   height: 96%;
@@ -189,6 +262,7 @@ body::before {
   margin-left: 2%;
   margin-top: 12.5%;
   position: absolute;
+  animation: restdisappears 10s infinite linear;
 }
 .d8_2 div {
   position: absolute;
@@ -206,6 +280,12 @@ body::before {
   background-color: #FFD42E;
   margin-left: 15%;
   margin-top: 15%;
+  animation: eye_yellow 2s infinite ease-in-out;
+}
+@keyframes eye_yellow {
+  49% {background-color: #FFD42E}
+  50% {background-color: #F24941}
+  100% {background-color: #F24941}
 }
 .d10 {
   height: 43%;
@@ -215,6 +295,12 @@ body::before {
   margin-left: 28%;
   margin-top: 28%;
   position: absolute;
+  animation: eye_red 2s infinite ease-in-out;
+}
+@keyframes eye_red {
+  49% {background-color:  #F24941}
+  50% {background-color: #FFD42E}
+  100% {background-color: #FFD42E}
 }
 .d11 {
   height: 6%;
@@ -224,6 +310,7 @@ body::before {
   margin-left: 7%;
   margin-top: 7%;
   position: absolute;
+  animation: restdisappears 10s infinite linear;
 }
 .d12 {
   height: 27%;
@@ -233,6 +320,7 @@ body::before {
   margin-left: 0%;
   margin-top: 53%;
   position: absolute;
+  animation: bzz2 0.2s infinite alternate ease-in-out;
 }
 .d12 div {
   display: inline-flex;
@@ -244,6 +332,7 @@ body::before {
   background-color: black;
   margin-left: 4%;
   /* margin-top: -2px; */
+  animation: restdisappears 10s infinite linear;
 }
 .d14 {
   height: 102%;
@@ -258,6 +347,7 @@ body::before {
   background-color: black;
   margin-left: 8%;
   margin-top: -2px;
+  animation: restdisappears 10s infinite linear;
 }
 .d16 {
   height: 102%;
@@ -275,14 +365,15 @@ body::before {
   right: 4.5%;
   position: absolute;
   z-index: 2;
+  animation: restdisappears 10s infinite linear;
 }
 .d18 {
-  height: 11%;
-  width: 11%;
+  height: 42%;
+  width: 42%;
   border-radius: 50%;
   background-color: red;
-  margin-top: 18.5%;
-  right: 18.5%;
+  margin-top: 29%;
+  right: 29%;
   position: absolute;
   animation: eye 3s 1s infinite alternate ease-in;
 }
@@ -326,6 +417,7 @@ body::before {
   bottom: 7%;
   right: 7%;
   position: absolute;
+  animation: restdisappears 10s infinite linear;
 }
 .d20{
   height: 7%;
@@ -335,6 +427,7 @@ body::before {
   position: absolute;
   right: 38%;
   bottom: 49%;
+  animation: restdisappears 10s infinite linear;
 }
 .d21{
   height: 7%;
@@ -345,6 +438,7 @@ body::before {
   right: 29%;
   bottom: 47%;
   transform: rotate(30deg);
+  animation: restdisappears 10s infinite linear;
 }
 .d22{
   height: 7%;
@@ -355,6 +449,7 @@ body::before {
   right: 15%;
   bottom: 26%;
   transform: rotate(90deg);
+  animation: restdisappears 10s infinite linear;
 }
 .d23{
   height: 7%;
@@ -365,6 +460,7 @@ body::before {
   right: 15%;
   bottom: 16%;
   transform: rotate(110deg);
+  animation: restdisappears 10s infinite linear;
 }
 .d24{
   height: 16%;
@@ -374,6 +470,7 @@ body::before {
   position: absolute;
   right: 11%;
   bottom: 37%;
+  animation: bzz 0.2s infinite alternate ease-in-out;
 }
 .d24 img{
   height: 100%;
@@ -385,7 +482,8 @@ body::before {
   display: inline-block;
   position: relative;
   vertical-align: top;
-  margin-left: -0.6%;
+  margin-left: -0.75%;
+  overflow: hidden;
   /* background: red; */
 }
 .s3 div {position: absolute;}
@@ -397,6 +495,8 @@ body::before {
   background: black;
   border-radius: 50px;
   z-index: 3;
+  animation: turntoblue 2s infinite ease-in;
+
 }
 .d26 {
   height: 39%;
@@ -406,6 +506,8 @@ body::before {
   background: #00B6F4;
   border-radius: 50px;
   z-index: 2;
+  animation: turntoblack 2s infinite ease-in;
+
 }
 .d27 {
   height: 30%;
@@ -414,6 +516,8 @@ body::before {
   margin-left: 15%;
   background: black;
   border-radius: 50px;
+  animation: turntoblue 2s infinite ease-in;
+
 }
 .d28 {
   height: 20%;
@@ -421,6 +525,7 @@ body::before {
   bottom: 29%;
   margin-left: 36%;
   background: black;
+  animation: restdisappears 10s infinite linear;
 }
 .d29 {
   height: 70%;
@@ -428,6 +533,7 @@ body::before {
   margin-top: 13%;
   right: 0px;
   background: black;
+  animation: restdisappears 10s infinite linear;
 }
 .d30 {
   height: 4%;
@@ -435,6 +541,7 @@ body::before {
   background: #F655A0;
   margin-top: 42%;
   right: 0px;
+  animation: restdisappears 10s infinite linear;
 }
 .d31 {
   height: 4%;
@@ -442,6 +549,7 @@ body::before {
   background: #F655A0;
   margin-top: 66%;
   right: 0px;
+  animation: restdisappears 10s infinite linear;
 }
 .s4 {
   height: 33%;
@@ -460,10 +568,10 @@ body::before {
 }
 .d32 {
   height: 27%;
-  width: 84%;
+  width: 57%;
   background: #F24941;
   bottom: 6.5%;
-  margin-left: -1%;
+  margin-left: 16%;
 }
 .d33 {
   height: 52%;
@@ -488,6 +596,29 @@ body::before {
   opacity: 0.2;
   margin-top: 24%;
   right: 16.5%;
+  animation: lamp1 1s linear alternate infinite;
+}
+@keyframes lamp1 {
+  0% {opacity: 0;}
+  39%{opacity: 0;}
+  40%{opacity: 1; background-color: #FFD42E; filter: blur(2px); transform: scale(1.2);}
+  45%{opacity: 0;}
+  50%{opacity: 1; background-color: #FFD42E; filter: blur(2px); transform: scale(1.2);}
+  55%{opacity: 0;}
+  60%{opacity: 1; background-color: #FFD42E; filter: blur(2px); transform: scale(1.2);}
+  65%{opacity: 0;}
+  100%{opacity: 0;}
+}
+@keyframes lamp2 {
+  0% {opacity: 0;}
+  39%{opacity: 0;}
+  40%{opacity: 1;}
+  45%{opacity: 0;}
+  50%{opacity: 1;}
+  55%{opacity: 0;}
+  60%{opacity: 1;}
+  65%{opacity: 0;}
+  100%{opacity: 0;}
 }
 .s5 {
   height: 4.5%;
@@ -623,10 +754,31 @@ body::before {
   position: absolute;
   /* opacity: 0.2; */
 }
+.d44_2 {
+  position: absolute;
+  width: 19%;
+  height: 19%;
+  background: red;
+  top: 41.5%;
+  left: 41.5%;
+  border-radius: 50%;
+  z-index: 2;
+}
+.d44_3 {
+  position: absolute;
+  width: 12%;
+  height: 34%;
+  background: #FFD42E;
+  top: 15%;
+  left: 45%;
+  border-radius: 50px;
+  /* transform: rotate(0deg); */
+  animation: linerotate 5s infinite linear;
+}
 .d44 img{
   margin-left: 9%;
   margin-top: 8%;
-  height: 76%;
+  height: 48%;
   width: 84%;
 }
 .d45 {
@@ -683,6 +835,11 @@ body::before {
   overflow: hidden;
   /* background-color: red; */
 }
+.d49__2 {border-radius: 50%; height: 9.5%; width: 4%; background: black; position: absolute; left: 1%; top: 2%;}
+.d49__3 {border-radius: 50%; height: 9.5%; width: 4%; background: black; position: absolute; left: 1%; bottom: 2%;}
+.d49__4 {border-radius: 50%; height: 9.5%; width: 4%; background: black; position: absolute; top: 2%; right: 1%;}
+.d49__5 {border-radius: 50%; height: 9.5%; width: 4%; background: black; position: absolute; bottom: 2%; right: 1%;}
+
 .d {height: 37%; width: 19%; margin-left: 3%; margin-top: 4.2%; animation: moving 5s ease-in infinite}
 .o {height: 37%; width: 13%; margin-left: 24.5%; margin-top: 4.2%; animation: moving 5s ease-in infinite}
 .i {height: 37%; width: 16.2%; margin-left: 43%; margin-top: 4.2%; animation: moving 5s ease-in infinite}
@@ -733,6 +890,14 @@ body::before {
   background: black;
   margin-left: 10.5%;
   margin-top: 7.7%;
+  animation: colorchange1 4s infinite linear;
+}
+@keyframes colorchange1 {
+  29%{background: black;}
+  30%{background: #00B6F4;}
+  79%{background: #00B6F4;}
+  80%{background: #F24941;}
+  100%{background: #F24941;}
 }
 .d51 {
   height: 40%;
@@ -741,6 +906,14 @@ body::before {
   background: black;
   margin-left: 25.5%;
   margin-top: 7.7%;
+  animation: colorchange2 4s  2s infinite linear;
+}
+@keyframes colorchange2 {
+  29%{background: black;}
+  30%{background: #FFD42E;}
+  79%{background: #FFD42E;}
+  80%{background: #00B6F4;}
+  100%{background: #00B6F4;}
 }
 .d52 {
   height: 40%;
@@ -749,6 +922,12 @@ body::before {
   background: black;
   margin-left: 41%;
   margin-top: 7.7%;
+  animation: colorchange3 2s infinite linear;
+}
+@keyframes colorchange3 {
+  49%{background: black;}
+  50%{background: #F655A0;}
+  100%{background: #F655A0;}
 }
 .d53_1 {
   width: 29%;
@@ -778,6 +957,11 @@ body::before {
   background: #F655A0;
   margin-left: 55%;
   margin-top: 9.5%;
+  animation: iphonebutton 2s alternate infinite cubic-bezier(.75,.3,.25,.86);
+}
+@keyframes iphonebutton {
+  78%{background: #F655A0;}
+  80%{transform: translate(-145%); background: #F24941;}
 }
 .d56 {
   height: 100%;
@@ -799,6 +983,16 @@ body::before {
   background: #F655A0;
   margin-left: 16%;
   margin-top: 7%;
+  animation: colorchange4 2s infinite linear;
+}
+@keyframes colorchange4 {
+  19%{background: #F655A0;}
+  20%{background: black;}
+  39%{background: black;}
+  40%{background: #F24941;}
+  59%{background: #F24941;}
+  60%{background: #FFD42E;}
+  100%{background: #FFD42E;}
 }
 .d58 {
   height: 39%;
@@ -807,6 +1001,7 @@ body::before {
   background: #F655A0;
   margin-left: 30%;
   margin-top: 7%;
+  animation: colorchange2 2s 4s infinite linear;
 }
 .d59 {
   height: 38%;
@@ -815,13 +1010,20 @@ body::before {
   background: black;
   margin-left: 45%;
   margin-top: 7%;
+  animation: colorchange6 5s infinite linear;
+}
+@keyframes colorchange6 {
+  49%{background: black;}
+  50%{background: #F24941;}
+  100%{background: #F24941;}
 }
 .d60 {
   height: 12%;
   width: 7%;
   margin-left: 33.5%;
-  margin-top: -17%;
+  margin-top: -16.5%;
   position: absolute;
+  animation: bzz 0.2s infinite alternate ease-in-out;
 }
 .d60 img {
   width: 100%;
