@@ -263,7 +263,7 @@
 	.s1 .d2 {height: 16%; width: 30%; margin-top: 93%; margin-left: 33%;}
 	.s1 .d42_1 {height: 7%; width: 34%; margin-top: 154%; margin-left: 24%; background: black; border-radius: 50px; z-index: -1;}
 	.s1 .d43_1 {height: 9%; width: 11%; background: #F655A0; position: absolute; right: 0%; bottom: 21%;}
-	.s1 .d6 {margin-top: 1%; margin-left: 53%;}
+	.s1 .d6 {margin-top: 1%; margin-left: 53%; width: 28%;}
 	.s1 .d3_2 {height: 23%; width: 22%; margin-top: 83%; margin-left: 57%; background: #00B6F4; border-radius: 50px;}
 	.s1 .red_lamp {width: 64%; margin-left: 15%; margin-top: 192%;}
 
@@ -277,16 +277,16 @@
 
 	.s4 {top: -4%; right: 10%;}
 	.s4 .d32 {bottom: -3.5%; margin-left: 0%;}
-	.s4 .d35_2 {height: 12%; width: 8%; border-radius: 50px; background-color: #F23939; position: absolute; margin-top: 59%; right: -1%; transform: rotate(-37deg);}
-	.s4 .d35_3 {height: 12%; width: 8%; border-radius: 50px; background-color: #F23939; position: absolute; margin-top: 3%; right: 1%; transform: rotate(37deg);}
-	.s4 .d35_4 {height: 12%; width: 8%; border-radius: 50px; background-color: #F23939; position: absolute; margin-top: 3%; right: 51%; transform: rotate(-37deg);}
-	.s4 .d35_5 {height: 12%; width: 8%; border-radius: 50px; background-color: #F23939; position: absolute; margin-top: 13%; right: 60%; transform: rotate(-64deg);}
+	.s4 .d35_2 {height: 12%; width: 8%; border-radius: 50px; background-color: #F23939; position: absolute; margin-top: 59%; right: -1%; transform: rotate(-37deg); opacity: 0; animation: lineappears 4s alternate infinite linear;}
+	.s4 .d35_3 {height: 12%; width: 8%; border-radius: 50px; background-color: #F23939; position: absolute; margin-top: 3%; right: 1%; transform: rotate(37deg); opacity: 0;  animation: lineappears 4s 1s alternate infinite linear;}
+	.s4 .d35_4 {height: 12%; width: 8%; border-radius: 50px; background-color: #F23939; position: absolute; margin-top: 3%; right: 51%; transform: rotate(-37deg); opacity: 0; animation: lineappears 4s 2s alternate infinite linear;}
+	.s4 .d35_5 {height: 12%; width: 8%; border-radius: 50px; background-color: #F23939; position: absolute; margin-top: 13%; right: 60%; transform: rotate(-64deg); opacity: 0; animation: lineappears 4s 3s alternate infinite linear;;}
 
 	.s5 {bottom: 4%;}
 
 	.s5_2 {height: 5%; width: 14%; display: inline-flex; position: absolute; vertical-align: top; left: 26.5%; top: 0.4%;}
-	.d36_2 {height: 100%; width: 37%; background: #F655A0; position: relative;}
-	.d37_2 {height: 100%; width: 37%; background: #F655A0; position: relative; margin-left: 22%;}
+	.d36_2 {height: 100%; width: 37%; background: #F655A0; position: relative; animation: press 2s alternate infinite ease-in-out}
+	.d37_2 {height: 100%; width: 37%; background: #F655A0; position: relative; margin-left: 12%;}
 
 	.s7 {height: 31.5%;}
 
