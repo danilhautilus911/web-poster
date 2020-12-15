@@ -5,8 +5,10 @@
   .s2 {width: 90%}
 } */
 @media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+	.content {padding-bottom: 355%;}
 	body {height: 3880px;}
 	body::before {background-image: url("../images/320_767.png");}
+	.big_two {bottom: 0.7%;}
 	.big_one {height: 49.8%;}
 	.s1, .s3 {display: none;}
 
@@ -61,9 +63,11 @@
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+	.content {padding-bottom: 232%;}
 	body {height: 2550px;}
 	body::before {background-image: url("../images/768_1023.png");}
 	.big_one {height: 47%;}
+	.big_two {bottom: 0%;}
 	.s1, .s3 {display: none;}
 
 /* это новая строчка, которая появляется начиная с айпада */
@@ -124,9 +128,11 @@
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1279px) {
+	.content {padding-bottom: 152%;}
 	body {height: 1650px;}
   body::before {background-image: url("../images/1024_1279.png");}
 	.big_one {margin-top: 4.5%; height: 46.5%;}
+
 
 	.s1 {width: 15.5%;}
 	.s1 .d1 {margin-top: 0%; width: 42%; height: 67%;}
@@ -175,9 +181,12 @@
 }
 
 @media only screen and (min-device-width: 1280px) and (max-device-width: 1365px) {
+	.content {padding-bottom: 138%;}
 	body {height: 1515px;}
   body::before {background-image: url("../images/1280_1365.png");}
   .big_one {height: 45%;}
+	.big_two {bottom: 0%;}
+
 
   .s1 {width: 20%;}
   .s1 .red_lamp {margin-left: 13%; margin-top: 224%;}
@@ -206,6 +215,8 @@
 
 
 @media only screen and (min-device-width: 1366px) and (max-device-width: 1439px) {
+	.content {padding-bottom: 132%;}
+	.big_two {bottom: 0%;}
 	body {height: 1450px;}
   body::before {background-image: url("../images/1366_1439.png");}
   .big_one {height: 42.2%;}
@@ -242,9 +253,11 @@
 }
 
 @media only screen and (min-device-width: 1680px) {
+	.content {padding-bottom: 132.7%;}
 	body {height: 1459px;}
 	body::before {background-image: url("../images/1680.png"); }
 	.big_one {margin-top: 3.3%; height: 44.1%;}
+	.big_two {bottom: 0%;}
 	.s1 {width: 22%;}
 	.s1 .d1 {width: 33%;}
 	.s1 .d2 {height: 16%; width: 30%; margin-top: 93%; margin-left: 33%;}
@@ -295,7 +308,7 @@
 	.s7 .d46 img {width: 94%; margin-top: 4%; height: 81%;}
 
 	.s8 {height: 54.2%;}
-	.d49 {width: 84%; height: 83%; margin-left: 4.5%;}
+	.d49 {width: 83%; height: 84%; margin-left: 5.5%;}
 	.s8 .d49_2 {height: 9%; width: 7%; margin-top: 8%; position: absolute; background: black;}
 
 	.s9 {height: 12.4%;}
@@ -313,6 +326,14 @@
 	.d59 {width: 53%; margin-left: 38%;}
 	.d60 {margin-left: 32.5%; margin-top: -15.8%;}
 
+	.ticket {height: 77.4%; width: 10%; right: 15%; margin-top: 15.3%;}
+	.ticket img {height: 30%;}
+
+	.d {width: 17%; margin-left: 5%;}
+	.o {width: 12.5%;}
+	.i {width: 15.2%; margin-left: 41.7%;}
+	.g {width: 12.5%; margin-left: 60%;}
+	.r {width: 12%; margin-left: 78%;}
 }
 
 @media only screen and (min-width: 1224px) {
