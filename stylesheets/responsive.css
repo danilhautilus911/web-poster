@@ -22,7 +22,6 @@
 	.d8_2_2 {width: 14%; height: 34%; background: #00B6F4; margin-left: -3px; margin-top: 13%;}
 	.d9_2 {width: 10%; height: 121%; background: black; margin-left: -3px; margin-top: 13%;}
 
-
 	.s2 {width: 100%; margin-top: 0px; height: 57%; left: 0;}
 	.s2 .d12 {border: 67px solid black; border-radius: 200px;}
 	.s2 .d17 {border: 67px solid black;}
@@ -40,6 +39,24 @@
 
 	.big_two {height: 51.2%; margin-top: -4%;}
 	.d46 img {width: 100%;}
+
+	.s7 {height: 22.4%;}
+	.d38, .d44, .d47, .d48 {display: none;}
+	.d46 {width: 70%; height: 16%; right: 6%; margin-top: 9%; border-radius: 50px;}
+	.d46 img {width: 92%; margin-left: 4%; margin-top: 3%; height: 86%;}
+	.d43_3 {height: 4%; width: 7%; position: absolute; border-radius: 50%; background-color: #F655A0; left: 3%; margin-top: 11%;}
+	.d43_4 {height: 4%; width: 7%; position: absolute; border-radius: 50%; background-color: #F655A0; left: 12%; margin-top: 11%;}
+	.d43_5 {height: 10%; width: 7%; position: absolute; border-radius: 50px; background-color: black; left: 3.2%; margin-top: 20%;}
+
+	.s8 {height: 71.5%;}
+	.d49 {height: 92%; width: 86%; margin-left: 2%; border: 56px solid black;}
+
+	.s9 {height: 7%;}
+	.d50_1, .d57_1, .d53, .d56 {display: none;}
+	.d54 {height: 49%; width: 85%; margin-left: 248%; margin-top: 11%;}
+	.d55 {height: 47%; width: 20%; margin-left: 217%; margin-top: 11.5%;}
+
+	.d60 {height: 12.5%; width: 15%; margin-left: 17%; margin-top: -23.6%;}
 
 }
 
@@ -78,11 +95,32 @@
 	.s5 .d37 {display: none;}
 	.s5 .d36 {height: 71%; width: 75%; background: #F24941;}
 
-
 	.big_two {height: 54%;}
 	.d46 img {width: 100%;}
-	.d38 {width: 30%; height: 21.2%; margin-left: -7%; margin-top: 9.2%; opacity: 0.4;}
+	.d38 {width: 30%; height: 21.2%; margin-left: -7%; margin-top: 9.2%;}
 	div.d39 {display: none;}
+
+	.s7 {height: 33%; overflow: hidden;}
+	div.d41, div.d42, div.d43 {width: 9.5%; height: 74%; margin-left: 14%; margin-top: 11%;}
+	.d44 {width: 27.5%; height: 22%; margin-top: 8.7%;}
+	.d46 {right: -5%; height: 14%; margin-top: 9%; right: 1%;}
+	.d46 img {margin-left: 3%; margin-top: 6%; height: 73%; width: 94%;}
+	.d47, .d48 {display: none;}
+	.d43_3 {height: 4%; width: 5%; position: absolute; border-radius: 50%; background-color: #F655A0; right: 4%; margin-top: 31%;}
+	.d43_4 {height: 4%; width: 5%; position: absolute; border-radius: 50%; background-color: #F655A0; right: 10%; margin-top: 31%;}
+	.d43_5 {height: 4%; width: 21%; position: absolute; border-radius: 50px; background-color: black; right: 16.5%; margin-top: 31%;}
+
+	.s8 {height: 58%;}
+	.d49 {height: 89%; width: 83.6%; margin-left: 4.6%; border: 42px solid black;}
+	.s9 {height: 10%;}
+	.d50_1, .d53, .d56 {display: none;}
+	.d57_1 {margin-left: 33%;}
+	.d54 {height: 62%; width: 51%; margin-left: 16%;}
+	.d55 {height: 43%; width: 18%; margin-left: 45%; margin-top: 11%;}
+	.d57 {height: 41%; width: 14%; margin-top: 9%; margin-left: 0%;}
+	.d58 {height: 41%; width: 14%; margin-top: 9%; margin-left: 16%;}
+	.d59 {margin-top: 9%; margin-left: 36%; height: 41%; width: 57%;}
+	.d60 {height: 13.5%; width: 11%; margin-left: 29%; margin-top: -20.6%;}
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1279px) {
