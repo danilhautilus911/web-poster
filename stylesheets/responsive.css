@@ -62,6 +62,8 @@
 
 	.d60 {height: 12.5%; width: 15%; margin-left: 17%; margin-top: -23.6%;}
 
+	.ticket {width: 22.4%; margin-top: 20.6%; right: 30%;}
+	.ticket img {height: 49%; top: -25%;}
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
@@ -69,7 +71,7 @@
 	body {height: 2550px;}
 	body::before {background-image: url("../images/skelet_768_1023.png");}
 	.big_one {height: 47%;}
-	.big_two {bottom: 0%;}
+	.big_two {bottom: 0%; overflow: hidden; }
 	.s1, .s3 {display: none;}
 
 	.d1_2, .d2_2, .d3_2, .d4_2, .d5_2, .d6_2, .d7_2, .d8_2_2, .d9_2 {animation: restdisappears 10s infinite linear;}
@@ -110,13 +112,13 @@
 
 	.s7 {height: 33%; overflow: hidden;}
 	div.d41, div.d42, div.d43 {width: 9.5%; height: 74%; margin-left: 14%; margin-top: 11%;}
-	.d44, .d444 {width: 27.5%; height: 22%; margin-top: 8.7%;}
-	.d46 {right: -5%; height: 14%; margin-top: 9%; right: 1%;}
-	.d46 img {margin-left: 3%; margin-top: 6%; height: 73%; width: 94%;}
+	.d44, .d444 {width: 27.5%; height: 22%; margin-top: 8.7%; margin-left: 26.8%;}
+	.d46 {right: -11%; height: 17%; margin-top: 9%; width: 53%; border-radius: 47px;}
+	.d46 img {margin-left: 3%; margin-top: 3%; height: 84%; width: 94%;}
 	.d47, .d48 {display: none;}
-	.d43_3 {height: 4%; width: 5%; position: absolute; border-radius: 50%; background-color: #F655A0; right: 4%; margin-top: 31%;}
-	.d43_4 {height: 4%; width: 5%; position: absolute; border-radius: 50%; background-color: #F655A0; right: 10%; margin-top: 31%;}
-	.d43_5 {height: 4%; width: 20%; position: absolute; border-radius: 50px; background-color: black; right: 16.5%; margin-top: 31%;}
+	/* .d43_3 {height: 4%; width: 5%; position: absolute; border-radius: 50%; background-color: #F655A0; right: 4%; margin-top: 31%;} */
+	/* .d43_4 {height: 4%; width: 5%; position: absolute; border-radius: 50%; background-color: #F655A0; right: 10%; margin-top: 31%;} */
+	.d43_5 {height: 4%; width: 16%; position: absolute; border-radius: 50px; background-color: black; right: 26%; margin-top: 33%;}
 
 	.s8 {height: 58%;}
 	.d49 {height: 89%; width: 83.6%; margin-left: 4.6%; border: 42px solid black;}
@@ -129,6 +131,9 @@
 	.d58 {height: 41%; width: 14%; margin-top: 9%; margin-left: 16%;}
 	.d59 {margin-top: 9%; margin-left: 36%; height: 41%; width: 57%;}
 	.d60 {height: 13.5%; width: 11%; margin-left: 29%; margin-top: -20.6%;}
+
+	.ticket {right: 7.2%; margin-top: 17.4%; width: 17%;}
+	.ticket img {height: 50%; top: -24%;}
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1279px) {
@@ -136,7 +141,6 @@
 	body {height: 1650px;}
   body::before {background-image: url("../images/skelet_1024_1279.png");}
 	.big_one {margin-top: 4.5%; height: 46.5%;}
-
 
 	.s1 {width: 15.5%;}
 	.s1 .d1 {margin-top: 0%; width: 42%; height: 67%;}
@@ -184,6 +188,8 @@
 	div.d47, div.d48, div.d53, div.d56 {display: none !important;}
 	.d54 {margin-left: 72%;}
 	.d55 {margin-left: 96%;}
+
+	.ticket {right: 17%; margin-top: 14.3%;}
 }
 
 @media only screen and (min-device-width: 1280px) and (max-device-width: 1365px) {
@@ -218,6 +224,8 @@
 
 	.s8 {height: 55.5%;}
 	.d60 {width: 6%; margin-top: -16%;}
+
+	.ticket {right: 15.62%; margin-top: 13%;}
 }
 
 
@@ -260,6 +268,8 @@
 	.d55 {margin-left: 98%;}
 
 	.d60 {width: 6%; margin-top: -16%;}
+
+	.ticket {right: 15.62%; margin-top: 13.1%;}
 }
 
 @media only screen and (min-device-width: 1680px) {
@@ -337,8 +347,8 @@
 	.d59 {width: 53%; margin-left: 38%;}
 	.d60 {height: 15%; margin-left: 32.5%; margin-top: -15.8%;}
 
-	.ticket {height: 77.4%; width: 10%; right: 15%; margin-top: 15.3%;}
-	.ticket img {height: 30%;}
+	.ticket {height: 62%; width: 10%; right: 15%; margin-top: 15.3%;}
+	.ticket img {height: 55%;}
 
 	.d {width: 17%; margin-left: 5%;}
 	.o {width: 12.5%;}
