@@ -671,6 +671,7 @@ body::before {
   right: 16.9%;
   z-index: 5;
   overflow: hidden;
+  /* animation: restdisappears 10s infinite linear; */
 }
 /* .ticket_line {
   margin-top: -11%;
@@ -682,12 +683,20 @@ body::before {
 .ticket img {
   width: 100%;
   position: absolute;
-  height: 32%;
-  animation: ticket_move 5s linear;
+  height: 44%;
+  top: -28%;
+  /* animation: ticket_move 5s 10s ease-in infinite; */
+}
+
+.ticket img:hover {
+  animation: ticket_move 5s ease-in;
 }
 @keyframes ticket_move {
-  0% {transform: translateY(-200px);}
-  100% {transform: translateY(1000px)}
+  /* 0% {transform: translateY(-200px);} */
+  40% {transform: translateY(370px)}
+  60% {transform: translateY(370px)}
+
+  100% {}
 }
 .s7 {
   height: 34.9%;
@@ -707,6 +716,7 @@ body::before {
   background: #C4C4C4;
   border-radius: 38px;
   position: absolute;
+  animation: restdisappears 10s infinite linear;
 }
 .d38 div {
   width: 6.5%;
@@ -746,19 +756,31 @@ body::before {
 }
 .d44 {
   width: 19.5%;
-  height: 23.8%;
+  height: 24.21%;
+  border-radius: 50%;
+  /* background-color: #00B6F4; */
+  margin-left: 28.8%;
+  margin-top: 5.7%;
+  position: absolute;
+  /* opacity: 0.2; */
+  animation: linerotate 5s infinite ease-in-out;
+}
+.d444 {
+  width: 19.5%;
+  height: 24.21%;
   border-radius: 50%;
   background-color: #00B6F4;
   margin-left: 28.8%;
   margin-top: 5.7%;
   position: absolute;
   /* opacity: 0.2; */
+  /* animation: linerotate 5s infinite linear; */
 }
 .d44_2 {
   position: absolute;
   width: 19%;
   height: 19%;
-  background: red;
+  background: black;
   top: 41.5%;
   left: 41.5%;
   border-radius: 50%;
@@ -773,9 +795,15 @@ body::before {
   left: 45%;
   border-radius: 50px;
   /* transform: rotate(0deg); */
-  animation: linerotate 5s infinite linear;
 }
-.d44 img{
+@keyframes linerotate {
+  25% {transform: rotate(-90deg);}
+  35% {transform: rotate(90deg);}
+  39% {transform: rotate(-20deg);}
+  50% {transform: rotate(90deg);}
+  55% {transform: rotate(-45deg)}
+}
+.d444 img{
   margin-left: 9%;
   margin-top: 8%;
   height: 48%;
@@ -796,6 +824,7 @@ body::before {
   right: 5%;
   margin-top: 11%;
   /* opacity: 0.2; */
+  /* animation: restdisappears 10s infinite linear; */
 }
 .d46 img {
   margin-left: 3%;
@@ -835,6 +864,8 @@ body::before {
   overflow: hidden;
   /* background-color: red; */
 }
+.d49 div, .d49 img {animation: restdisappears 10s infinite linear;}
+
 .d49__2 {border-radius: 50%; height: 9.5%; width: 4%; background: black; position: absolute; left: 1%; top: 2%;}
 .d49__3 {border-radius: 50%; height: 9.5%; width: 4%; background: black; position: absolute; left: 1%; bottom: 2%;}
 .d49__4 {border-radius: 50%; height: 9.5%; width: 4%; background: black; position: absolute; top: 2%; right: 1%;}
@@ -950,6 +981,9 @@ body::before {
   margin-top: 7%;
   /* opacity: 0; */
 }
+.d54:hover {
+  display: none;
+}
 .d55 {
   height: 36%;
   width: 13%;
@@ -957,7 +991,10 @@ body::before {
   background: #F655A0;
   margin-left: 55%;
   margin-top: 9.5%;
-  animation: iphonebutton 2s alternate infinite cubic-bezier(.75,.3,.25,.86);
+  /* animation: iphonebutton 2s alternate infinite cubic-bezier(.75,.3,.25,.86); */
+}
+.d55:hover {
+  display: none;
 }
 @keyframes iphonebutton {
   78%{background: #F655A0;}
