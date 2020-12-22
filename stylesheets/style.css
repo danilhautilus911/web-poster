@@ -19,8 +19,8 @@ body::before {
   width: 100%;
   height: 100%;
   display: block;
-  opacity: 0;
-  animation: skeletappears 10s infinite linear;
+  opacity: 0.5;
+  /* animation: skeletappears 10s infinite linear; */
 }
 @keyframes skeletappears {
   49%{opacity: 0}
@@ -876,40 +876,151 @@ body::before {
   border: 37px solid black;
   position: absolute;
   overflow: hidden;
+  background: white;
   /* background-color: red; */
 }
-.d49 div, .d49 img {animation: restdisappears 10s infinite linear;}
+/* .d49 div, .d49 img {animation: restdisappears 10s infinite linear;} */
+
+.vertical_line {
+  background-color: red;
+  height: 40%;
+  width: 3%;
+  position: absolute;
+  left: 0%;
+  top: 8%;
+  border-radius: 50px;
+  z-index: 5;
+  animation: vertical_line_animation 7s cubic-bezier(.35,.73,.37,.77) infinite;
+}
+
+@keyframes vertical_line_animation {
+  1% {opacity: 1;}
+  2% {opacity: 0;}
+  3% {opacity: 1;}
+  4% {opacity: 0;}
+  5% {opacity: 1;}
+  6% {opacity: 0;}
+  7% {opacity: 1;}
+  8% {opacity: 0;}
+  9% {opacity: 1;}
+  10% {opacity: 0;}
+  11% {opacity: 1;}
+  14% {transform: translateX(0);}
+  20% {transform: translateX(920px);}
+  22% {opacity: 1;}
+  23% {opacity: 0;}
+  24% {opacity: 1;}
+  25% {opacity: 0;}
+  26% {opacity: 1;}
+  27% {opacity: 0;}
+  28% {opacity: 1;}
+  29% {opacity: 0;}
+  30% {opacity: 1;}
+  35% {transform: translateX(920px);}
+  /* 100% {transform: translateX(920px);} */
+  37% {transform: translateY(180px) translateX(920px);}
+  /* 100% {transform: translateY(180px) translateX(920px);} */
+  38% {opacity: 1;}
+  39% {opacity: 0;}
+  40% {opacity: 1;}
+  41% {opacity: 0;}
+  42% {opacity: 1;}
+  43% {opacity: 0;}
+  44% {opacity: 1;}
+  45% {opacity: 0;}
+  46% {opacity: 1;}
+  47% {transform: translateY(180px) translateX(920px);}
+  53% {transform: translateY(180px);}
+  54% {opacity: 1;}
+  55% {opacity: 0;}
+  56% {opacity: 1;}
+  57% {opacity: 0;}
+  58% {opacity: 1;}
+  59% {opacity: 0;}
+  60% {opacity: 1;}
+  61% {opacity: 0;}
+  62% {opacity: 1;}
+  63% {transform: translateY(180px);}
+  65% {transform: translateY(0px) translateX(0px);}
+}
+
+.rectangle {
+  background-color: white;
+  height: 40%;
+  width: 3%;
+  position: absolute;
+  left: 0%;
+  top: 8%;
+  z-index: 4;
+  animation: rectangle_animation 14s 0.98s cubic-bezier(.35,.73,.37,.77) infinite;
+}
+
+@keyframes rectangle_animation {
+  2.9% {width: 925px;}
+  50% {transform: translateX(0px); width: 925px;}
+  52.9% {transform: translateX(925px); width: 925px;}
+  100% {transform: translateX(925px); width: 925px;}
+}
+
+.rectangle2 {
+  background-color: white;
+  height: 42%;
+  width: 3%;
+  position: absolute;
+  right: 0%;
+  top: 51%;
+  z-index: 4;
+  animation: rectangle_animation2 14s 3.29s infinite cubic-bezier(.35,.73,.37,.77);
+}
+
+@keyframes rectangle_animation2 {
+  2.9% {width: 925px;}
+  50% {transform: translateX(0px); width: 925px;}
+  52.9% {transform: translateX(-925px); width: 925px;}
+  100% {transform: translateX(-925px); width: 925px;}
+}
 
 .d49__2 {border-radius: 50%; height: 9.5%; width: 4%; background: black; position: absolute; left: 1%; top: 2%;}
 .d49__3 {border-radius: 50%; height: 9.5%; width: 4%; background: black; position: absolute; left: 1%; bottom: 2%;}
 .d49__4 {border-radius: 50%; height: 9.5%; width: 4%; background: black; position: absolute; top: 2%; right: 1%;}
 .d49__5 {border-radius: 50%; height: 9.5%; width: 4%; background: black; position: absolute; bottom: 2%; right: 1%;}
 
-.d {height: 37%; width: 19%; margin-left: 3%; margin-top: 4.2%; animation: moving 5s ease-in infinite}
-.o {height: 37%; width: 13%; margin-left: 24.5%; margin-top: 4.2%; animation: moving 5s ease-in infinite}
-.i {height: 37%; width: 16.2%; margin-left: 43%; margin-top: 4.2%; animation: moving 5s ease-in infinite}
-.g {height: 37%; width: 13.2%; margin-left: 63.3%; margin-top: 4.2%; animation: moving 5s ease-in infinite}
-.r {height: 37%; width: 13.5%; margin-left: 82.5%; margin-top: 4.2%; animation: moving 5s ease-in infinite}
+.d {height: 37%; width: 19%; margin-left: 3%; margin-top: 4.2%; animation: letter_opacity 28s linear; }
+.o {height: 37%; width: 13%; margin-left: 24.5%; margin-top: 4.2%; animation: letter_opacity 28s linear; }
+.i {height: 37%; width: 16.2%; margin-left: 43%; margin-top: 4.2%; animation: letter_opacity 28s linear; }
+.g {height: 37%; width: 13.2%; margin-left: 63.3%; margin-top: 4.2%; animation: letter_opacity 28s linear; }
+.r {height: 37%; width: 13.5%; margin-left: 82.5%; margin-top: 4.2%; animation: letter_opacity 28s linear; }
+.a {height: 37%; width: 13.5%; margin-left: 5.5%; margin-top: 23.5%;  animation: letter_opacity 28s linear; }
+.l {height: 37%; width: 16.5%; margin-left: 24.5%; margin-top: 23.5%;  animation: letter_opacity 28s linear; }
+.i2 {height: 37%; width: 16.2%; margin-left: 43%; margin-top: 23.5%;  animation: letter_opacity 28s linear; }
+.s {height: 37%; width: 13.7%; margin-left: 63%; margin-top: 23.5%;  animation: letter_opacity 28s linear; }
+.soft_sign {height: 37%; width: 13.7%; margin-left: 82.5%; margin-top: 23.5%;  animation: letter_opacity 28s linear; }
 
-/* @keyframes moving {
-  0% {transform: translateX(1000px);}
-  45%{transform: translateX(0px);}
-  55%{transform: translateX(0px);}
-  100%{transform: translateX(-1000px);}
+@keyframes letter_opacity {
+  21% {opacity: 1;}
+  25% {opacity: 0;}
+  72% {opacity: 0;}
+  75% {opacity: 1;}
+  100% {opacity: 1;}
 }
 
-@keyframes moving2 {
-  0% {transform: translateX(-1000px);}
-  45%{transform: translateX(0px);}
-  55%{transform: translateX(0px);}
-  100%{transform: translateX(1000px);}
-} */
+.o2 {height: 37%; width: 13%; margin-left: 6%; margin-top: 4.2%; opacity: 0; animation: letter_opacity2 28s linear;}
+.p {height: 37%; width: 13%; margin-left: 24.5%; margin-top: 4.2%; opacity: 0; animation: letter_opacity2 28s linear;}
+.e {height: 37%; width: 13.5%; margin-left: 43%; margin-top: 4.2%; opacity: 0; animation: letter_opacity2 28s linear;}
+.n {height: 37%; width: 16%; margin-left: 63.3%; margin-top: 4.2%; opacity: 0; animation: letter_opacity2 28s linear; transform: rotate(180deg);}
+.t {height: 37%; width: 14%; margin-left: 24.5%; margin-top: 23.5%; opacity: 0; animation: letter_opacity2 28s linear;}
+.a2 {height: 37%; width: 13.5%; margin-left: 43%; margin-top: 23.5%; opacity: 0; animation: letter_opacity2 28s linear;}
+.l2 {height: 37%; width: 16.2%; margin-left: 63%; margin-top: 23.5%; opacity: 0; animation: letter_opacity2 28s linear;}
+.k {height: 37%; width: 13.7%; margin-left: 82.5%; margin-top: 23.5%; opacity: 0; animation: letter_opacity2 28s linear;}
 
-.a {height: 37%; width: 13.5%; margin-left: 5.5%; margin-top: 23.5%; animation: moving2 5s ease-in infinite}
-.l {height: 37%; width: 16.5%; margin-left: 24.5%; margin-top: 23.5%; animation: moving2 5s ease-in infinite}
-.i2 {height: 37%; width: 16.2%; margin-left: 43%; margin-top: 23.5%; animation: moving2 5s ease-in infinite}
-.s {height: 37%; width: 13.7%; margin-left: 63%; margin-top: 23.5%; animation: moving2 5s ease-in infinite}
-.soft_sign {height: 37%; width: 13.7%; margin-left: 82.5%; margin-top: 23.5%; animation: moving2 5s ease-in infinite}
+@keyframes letter_opacity2 {
+  21% {opacity: 0;}
+  25% {opacity: 1;}
+  55% {opacity: 1;}
+  75% {opacity: 1;}
+  76% {opacity: 0;}
+  100% {opacity: 0;}
+}
 
 .s9 {
   width: 100%;
