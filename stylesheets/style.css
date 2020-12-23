@@ -20,6 +20,7 @@ body::before {
   height: 100%;
   display: block;
   opacity: 0.5;
+  z-index: -5;
   /* animation: skeletappears 10s infinite linear; */
 }
 @keyframes skeletappears {
@@ -952,7 +953,7 @@ body::before {
   left: 0%;
   top: 8%;
   z-index: 4;
-  animation: rectangle_animation 14s 0.98s cubic-bezier(.35,.73,.37,.77) infinite;
+  /* animation: rectangle_animation 14s 0.98s cubic-bezier(.35,.73,.37,.77) infinite; */
 }
 
 @keyframes rectangle_animation {
@@ -973,7 +974,7 @@ body::before {
   animation: rectangle_animation2 14s 3.29s infinite cubic-bezier(.35,.73,.37,.77);
 }
 
-@keyframes rectangle_animation2 {
+/* @keyframes rectangle_animation2 { */
   2.9% {width: 925px;}
   50% {transform: translateX(0px); width: 925px;}
   52.9% {transform: translateX(-925px); width: 925px;}
@@ -1196,6 +1197,7 @@ body::before {
   position: absolute;
   animation: bzz 0.2s infinite alternate ease-in-out;
   animation-play-state: running;
+  z-index: 5;
 }
 .d60:hover {animation-play-state: paused;}
 
