@@ -338,7 +338,7 @@
 }
 
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1279px) {
+/* @media only screen and (min-device-width: 1024px) and (max-device-width: 1279px) {
 	.content {padding-bottom: 152%;}
 	body {height: 1650px;}
   body::before {background-image: url("../images/skelet_1024_1279.png");}
@@ -392,7 +392,7 @@
 	.d55 {margin-left: 96%;}
 
 	.ticket {right: 17%; margin-top: 14.3%;}
-}
+} */
 
 @media only screen and (min-device-width: 1280px) and (max-device-width: 1365px) {
 	.content {padding-bottom: 138%;}
