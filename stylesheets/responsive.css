@@ -128,7 +128,7 @@
 	.rectangle {top: 1.5%;}
 	.rectangle2 {top: 26.5%;}
 	.rectangle3 {top: 50.1%;}
-	.rectangle4 {top: 75%; height: 24%;}
+	.rectangle4 {top: 75%; height: 25}
 
 	@keyframes rectangle_animation_iphone {
 		21% {width: 3%;}
@@ -136,20 +136,6 @@
 		50% {width: 893px;}
 		60% {width: 3%;}
 		100% {width: 3%;}
-	}
-	.d, .o, .i, .g, .r, .a, .l, .i2, .s, .soft_sign { animation: letter_moving 14s infinite;}
-	@keyframes letter_moving {
-		19% {opacity: 1;}
-		20% {opacity: 0;}
-		69% {opacity: 0;}
-		70% {opacity: 1;}
-	}
-	.o2, .p, .e, .n, .t, .a2, .l2, .k {opacity: 0; animation: letter_moving2 14s infinite;}
-	@keyframes letter_moving2 {
-		19% {opacity: 0;}
-		20% {opacity: 1;}
-		69% {opacity: 1;}
-		70% {opacity: 0;}
 	}
 }
 
