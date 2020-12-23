@@ -195,7 +195,7 @@
 
 	.s8 {height: 58%;}
 	.d49 {height: 89%; width: 83.6%; margin-left: 4.6%; border: 42px solid black;}
-	.s9 {height: 10%; margin-top: 0.5%;}
+	.s9 {height: 10%; margin-top: 1%;}
 	.d50_1, .d53, .d56 {display: none;}
 	.d57_1 {margin-left: 33%;}
 	.d54 {height: 62%; width: 51%; margin-left: 16%;}
@@ -337,10 +337,10 @@
 	}
 
 	.d12 {border-radius: 170px;}
-	.d17, .d49, .d12 {border: 38px solid black;}
+	.d17, .d49, .d12 {border: 40px solid black;}
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1279px) {
 	.content {padding-bottom: 152%;}
 	body {height: 1650px;}
   body::before {background-image: url("../images/skelet_1024_1279.png");}
