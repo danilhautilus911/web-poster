@@ -7,7 +7,7 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
 	.content {padding-bottom: 352%;}
 	body {height: 3880px;}
-	body::before {background-image: url("../images/skelet_320_767.png");}
+	body::before {background-image: url("../images/skelet_320_767_2.png");}
 	.big_two {bottom: 0.7%;}
 	.big_one {height: 49.8%;}
 	.s1, .s3 {display: none;}
@@ -128,7 +128,7 @@
 	.rectangle {top: 1.5%;}
 	.rectangle2 {top: 26.5%;}
 	.rectangle3 {top: 50.1%;}
-	.rectangle4 {top: 75%; height: 25}
+	.rectangle4 {top: 75%; height: 23%;}
 
 	@keyframes rectangle_animation_iphone {
 		21% {width: 3%;}
