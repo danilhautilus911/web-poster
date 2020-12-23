@@ -340,7 +340,7 @@
 	.d17, .d49, .d12 {border: 38px solid black;}
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1279px) {
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
 	.content {padding-bottom: 152%;}
 	body {height: 1650px;}
   body::before {background-image: url("../images/skelet_1024_1279.png");}
