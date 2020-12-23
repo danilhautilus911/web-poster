@@ -29,7 +29,7 @@ body::before {
   59%{opacity: 1}
   60%{opacity: 0}
 }
-@keyframes restdisappears {
+/* @keyframes restdisappears { */
   49%{opacity: 1}
   50%{opacity: 0}
   59%{opacity: 0}
