@@ -6,25 +6,39 @@
 } */
 @media only screen and (min-width: 320px) and (max-width: 767px) {
 	.content {padding-bottom: 352%;}
-	body {height: 3880px;}
-	body::before {background-image: url("../images/skelet_320_767.png");}
+	/* body {height: 3000px;} */
+	body::before {background-image: url("../images/skelet_320_767_3.png"); animation: skeletappears_iphone 10s infinite linear;}
 	.big_two {bottom: 0.7%;}
 	.big_one {height: 49.8%;}
 	.s1, .s3 {display: none;}
 
-	.d1_2, .d2_2, .d3_2, .d4_2, .d5_2, .d6_2, .d7_2, .d8_2_2, .d9_2 {animation: restdisappears 10s infinite linear;}
+	@keyframes skeletappears_iphone {
+	  49%{opacity: 0}
+	  50%{opacity: 1}
+	  59%{opacity: 1}
+	  60%{opacity: 0}
+	}
+
+	.d1, .d2, .d8_2, .d11, .d13, .d15, .d17, .d19, .d20, .d21, .d22, .d23, .d24, .d28, .d29, .d30, .d31, .d1_2, .d2_2, .d3_2, .d4_2, .d5_2, .d6_2, .d7_2, .d8_2_2, .d9_2 {animation: restdisappears_iphone 10s infinite linear;}
+
+	@keyframes restdisappears_iphone {
+	  49%{opacity: 1}
+	  50%{opacity: 0}
+	  59%{opacity: 0}
+	  60%{opacity: 1}
+	}
 
 	.s1_2 {position: relative; width: 100%; height: 43%;}
 	.s1_2 div {display: inline-block; vertical-align: top;}
 	.d1_2 {width: 11%; height: 100%; background: black;}
-	.d2_2 {width: 9%; height: 34%; background: #00B6F4; margin-left: -3px;}
-	.d3_2 {width: 9%; height: 34%; background: black; margin-left: -3px;}
-	.d4_2 {width: 11%; height: 43%; background: #00B6F4; margin-left: -3px;}
+	.d2_2 {width: 9%; height: 34%; background: #00B6F4; margin-left: -5px;}
+	.d3_2 {width: 9%; height: 34%; background: black; margin-left: -5px;}
+	.d4_2 {width: 11%; height: 43%; background: #00B6F4; margin-left: -5px;}
 	.d5_2 {width: 11%; height: 43%; background: black; margin-left: 7%; margin-top: 13%;}
-	.d6_2 {width: 10%; height: 34%; background: #00B6F4; margin-left: -3px; margin-top: 13%;}
-	.d7_2 {width: 7%; height: 34%; background: black; margin-left: -3px; margin-top: 13%;}
-	.d8_2_2 {width: 14%; height: 34%; background: #00B6F4; margin-left: -3px; margin-top: 13%;}
-	.d9_2 {width: 10%; height: 121%; background: black; margin-left: -1.5%; margin-top: 13%;}
+	.d6_2 {width: 10%; height: 34%; background: #00B6F4; margin-left: -5px; margin-top: 13%;}
+	.d7_2 {width: 9%; height: 34%; background: black; margin-left: -5px; margin-top: 13%;}
+	.d8_2_2 {width: 14%; height: 34%; background: #00B6F4; margin-left: -5px; margin-top: 13%;}
+	.d9_2 {width: 9.6%; height: 121%; background: black; margin-left: -1%; margin-top: 13%;}
 
 	.s2 {width: 100%; margin-top: 0px; height: 57%; left: 0;}
 	.s2 .d24 {right: 9%;}
@@ -102,7 +116,7 @@
 		70% {opacity: 0;}
 	}
 
-	.vertical_line, .vertical_line2, .vertical_line3, .vertical_line4 { height: 22%; width: 5%; animation: vertical_line_animation_iphone 7s ease-in infinite; background-color: red; position: absolute; left: 0%; top: 35%; border-radius: 50px; z-index: 5;}
+	.vertical_line, .vertical_line2, .vertical_line3, .vertical_line4 { height: 22%; width: 5%; animation: vertical_line_animation_iphone 7s ease-in infinite; background-color: red; position: absolute; left: 0%; top: 35%; border-radius: 50px; z-index: 3;}
 	.vertical_line {top: 1.5%;}
 	.vertical_line2 {top: 26.5%;}
 	.vertical_line3 {top: 50.1%;}
@@ -142,7 +156,7 @@
 		100% {left: 0%;}
 	}
 
-	.rectangle, .rectangle2, .rectangle3, .rectangle4 {background-color: white; height: 29%; width: 3%; position: absolute; left: 0%; top: 34%; z-index: 4; animation: rectangle_animation_iphone 7s ease-in infinite;}
+	.rectangle, .rectangle2, .rectangle3, .rectangle4 {background-color: white; height: 29%; width: 3%; position: absolute; left: 0%; top: 34%; z-index: 2; animation: rectangle_animation_iphone 7s ease-in infinite;}
 	.rectangle {top: 1.5%;}
 	.rectangle2 {top: 26.5%;}
 	.rectangle3 {top: 50.1%;}
@@ -162,25 +176,40 @@
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
 	.content {padding-bottom: 232%;}
-	body {height: 2550px;}
-	body::before {background-image: url("../images/skelet_768_1023.png");}
+	/* body {height: 2550px;} */
+	body::before {background-image: url("../images/skelet_768_1023_2.png"); animation: skeletappears_ipad1 10s infinite linear;}
 	.big_one {height: 47%;}
 	.big_two {bottom: 0%; overflow: hidden; }
 	.s1, .s3 {display: none;}
 
-	.d1_2, .d2_2, .d3_2, .d4_2, .d5_2, .d6_2, .d7_2, .d8_2_2, .d9_2 {animation: restdisappears 10s infinite linear;}
+	@keyframes skeletappears_ipad1 {
+	  49%{opacity: 0}
+	  50%{opacity: 1}
+	  59%{opacity: 1}
+	  60%{opacity: 0}
+	}
+
+	.d1, .d2, .d8_2, .d11, .d13, .d15, .d17, .d19, .d20, .d21, .d22, .d23, .d24, .d28, .d29, .d30, .d31, .d1_2, .d2_2, .d3_2, .d4_2, .d5_2, .d6_2, .d7_2, .d8_2_2, .d9_2 {animation: restdisappears_ipad1 10s infinite linear;}
+	/* .d1_2, .d2_2, .d3_2, .d4_2, .d5_2, .d6_2, .d7_2, .d8_2_2, .d9_2 {animation: restdisappears_ipad1 10s infinite linear;} */
+
+	@keyframes restdisappears_ipad1 {
+		49%{opacity: 1}
+		50%{opacity: 0}
+		59%{opacity: 0}
+		60%{opacity: 1}
+	}
 
 /* это новая строчка, которая появляется начиная с айпада */
 	.s1_2 {position: relative; width: 100%; height: 22.5%;}
 	.s1_2 div {display: inline-block; vertical-align: top;}
-	.d1_2 {width: 7.2%; height: 200%; background: black;}
-	.d2_2 {width: 9%; height: 70%; background: #00B6F4; margin-left: -3px;}
-	.d3_2 {width: 3%; height: 70%; background: black; margin-left: -3px;}
-	.d4_2 {width: 7%; height: 89%; background: #00B6F4; margin-left: -3px;}
+	.d1_2 {width: 7.4%; height: 200%; background: black;}
+	.d2_2 {width: 9%; height: 70%; background: #00B6F4; margin-left: -5px;}
+	.d3_2 {width: 3%; height: 70%; background: black; margin-left: -5px;}
+	.d4_2 {width: 7%; height: 89%; background: #00B6F4; margin-left: -5px;}
 	.d5_2 {width: 7%; height: 89%; background: black; margin-left: 39%;}
-	.d6_2 {width: 8%; height: 73%; background: #00B6F4; margin-left: -3px; margin-top: 4%;}
-	.d7_2 {width: 4.5%; height: 73%; background: black; margin-left: -3px; margin-top: 4%;}
-	.d8_2_2 {width: 6%; height: 73%; background: #00B6F4; margin-left: -3px; margin-top: 4%;}
+	.d6_2 {width: 8%; height: 73%; background: #00B6F4; margin-left: -5px; margin-top: 4%;}
+	.d7_2 {width: 4.5%; height: 73%; background: black; margin-left: -5px; margin-top: 4%;}
+	.d8_2_2 {width: 8%; height: 73%; background: #00B6F4; margin-left: -5px; margin-top: 4%;}
 	.d9_2 {width: 8.3%; height: 284%; background: black; margin-left: -1.5%; margin-top: 4%;}
 
 	.s2_2 {margin-top: 37%; display: inline-block; position: relative; width: 7.2%; height: 37%;}
@@ -219,11 +248,11 @@
 	.s9 {height: 10%; margin-top: 2%;}
 	.d50_1, .d53, .d56 {display: none;}
 	.d57_1 {margin-left: 33%;}
-	.d54 {height: 62%; width: 51%; margin-left: 16%;}
-	.d55 {height: 43%; width: 18%; margin-left: 45%; margin-top: 11%;}
-	.d57 {height: 41%; width: 14%; margin-top: 9%; margin-left: 0%;}
-	.d58 {height: 41%; width: 14%; margin-top: 9%; margin-left: 16%;}
-	.d59 {margin-top: 9%; margin-left: 36%; height: 41%; width: 57%;}
+	.d54 {height: 60%; width: 51%; margin-left: 16%; margin-top: 3%;}
+	.d55 {height: 43%; width: 18%; margin-left: 45%; margin-top: 6.5%;}
+	.d57 {height: 41%; width: 14%; margin-top: 5%; margin-left: 0%;}
+	.d58 {height: 41%; width: 14%; margin-top: 5%; margin-left: 16%;}
+	.d59 {margin-top: 5%; margin-left: 36%; height: 41%; width: 57%;}
 	.d60 {height: 13.5%; width: 11%; margin-left: 29%; margin-top: -20.6%;}
 
 	.ticket {right: 7.2%; margin-top: 17.4%; width: 17%;}
@@ -249,7 +278,7 @@
 	.l2 {width: 21%; height: 27%; margin-left: 53%; margin-top: 51.5%; }
 	.k {width: 16.2%; height: 27%; margin-left: 78%; margin-top: 51.5%; }
 
-	.vertical_line, .vertical_line2, .vertical_line3 {background-color: red; height: 27%; width: 4%; position: absolute; left: 0%; border-radius: 50px; z-index: 5; animation: vertical_line_animation_ipad 7s ease-in infinite;}
+	.vertical_line, .vertical_line2, .vertical_line3 {background-color: red; height: 27%; width: 4%; position: absolute; left: 0%; border-radius: 50px; z-index: 3; animation: vertical_line_animation_ipad 7s ease-in infinite;}
 	.vertical_line {top: 4%;}
 	.vertical_line2 {top: 35%;}
 	.vertical_line3 {top: 66%;}
@@ -290,7 +319,7 @@
 	.rectangle {top: 3%;}
 	.rectangle3 {top: 34%;}
 	.rectangle4 {top: 65%;}
-	.rectangle, .rectangle3, .rectangle4 {background-color: white; height: 29%; width: 3%; position: absolute; left: 0%; z-index: 4; animation: rectangle_animation_ipad 7s ease-in infinite;}
+	.rectangle, .rectangle3, .rectangle4 {background-color: white; height: 29%; width: 3%; position: absolute; left: 0%; z-index: 2; animation: rectangle_animation_ipad 7s ease-in infinite;}
 
 @keyframes rectangle_animation_ipad {
 	  21% {width: 3%;}
@@ -321,9 +350,24 @@
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1279px) {
 	.content {padding-bottom: 152%;}
-	body {height: 1650px;}
-  body::before {background-image: url("../images/skelet_1024_1279.png");}
+	/* body {height: 1650px;} */
+  body::before {background-image: url("../images/skelet_1024_1279_2.png"); animation: skeletappears_ipad2 10s infinite linear;}
 	.big_one {margin-top: 4.5%; height: 46.5%;}
+
+	@keyframes skeletappears_ipad2 {
+	  49%{opacity: 0}
+	  50%{opacity: 1}
+	  59%{opacity: 1}
+	  60%{opacity: 0}
+	}
+
+	.d1, .d2, .d8_2, .d11, .d13, .d15, .d17, .d19, .d20, .d21, .d22, .d23, .d24, .d28, .d29, .d30, .d31, .d1_2, .d2_2, .d3_2, .d4_2, .d5_2, .d6_2, .d7_2, .d8_2_2, .d9_2 {animation: restdisappears_ipad2 10s infinite linear;}
+	@keyframes restdisappears_ipad2 {
+		49%{opacity: 1}
+		50%{opacity: 0}
+		59%{opacity: 0}
+		60%{opacity: 1}
+	}
 
 	.s1 {width: 15.5%;}
 	.s1 .d1 {margin-top: 0%; width: 42%; height: 67%;}
@@ -348,7 +392,7 @@
 	.s3 .d26 {height: 40%; width: 41%; bottom: 21%;}
 	.s3 .d27 {height: 30%; width: 36%; bottom: 26%; margin-left: 40px;}
 	.s3 .d28 {display: none;}
-	.s3 .d29 {height: 70%; width: 40%; margin-top: 0;}
+	.s3 .d29 {height: 70%; width: 40%; margin-top: 0; margin-left: -0.5%;}
 	.s3 .d30 {width: 40%;}
 	.s3 .d31 {width: 40%; margin-top: 79%;}
 
@@ -373,14 +417,127 @@
 	.d55 {margin-left: 96%;}
 
 	.ticket {right: 17%; margin-top: 14.3%;}
+
+	.vertical_line {animation: vertical_line_animation_ipad2 7s cubic-bezier(.35,.73,.37,.77) infinite;}
+	@keyframes vertical_line_animation_ipad2 {
+	  1% {opacity: 1;}
+	  2% {opacity: 0;}
+	  3% {opacity: 1;}
+	  4% {opacity: 0;}
+	  5% {opacity: 1;}
+	  6% {opacity: 0;}
+	  7% {opacity: 1;}
+	  8% {opacity: 0;}
+	  9% {opacity: 1;}
+	  10% {opacity: 0;}
+	  11% {opacity: 1;}
+
+	  14% {left: 0%; top: 8%;}
+	  20% {left: 97%; top: 8%;}
+
+	  22% {opacity: 1;}
+	  23% {opacity: 0;}
+	  24% {opacity: 1;}
+	  25% {opacity: 0;}
+	  26% {opacity: 1;}
+	  27% {opacity: 0;}
+	  28% {opacity: 1;}
+	  29% {opacity: 0;}
+	  30% {opacity: 1;}
+
+	  35% {left: 97%; top: 8%;}
+	  37% {left: 97%; top: 53%;}
+
+	  38% {opacity: 1;}
+	  39% {opacity: 0;}
+	  40% {opacity: 1;}
+	  41% {opacity: 0;}
+	  42% {opacity: 1;}
+	  43% {opacity: 0;}
+	  44% {opacity: 1;}
+	  45% {opacity: 0;}
+	  46% {opacity: 1;}
+
+	  47% {left: 97%; top: 53%; }
+	  53% {left: 0%; top: 53%; }
+
+	  54% {opacity: 1;}
+	  55% {opacity: 0;}
+	  56% {opacity: 1;}
+	  57% {opacity: 0;}
+	  58% {opacity: 1;}
+	  59% {opacity: 0;}
+	  60% {opacity: 1;}
+	  61% {opacity: 0;}
+	  62% {opacity: 1;}
+	  63% {left: 0%; top: 53%;}
+	  65% {left: 0%; top: 8%;}
+	}
+
+	.rectangle {animation: rectangle_animation_ipad2 14s cubic-bezier(.35,.73,.37,.77) infinite;}
+
+	@keyframes rectangle_animation_ipad2 {
+	  7% {left: 0%; width: 1%;}
+	  10% {left: 0%; width: 97%;}
+	  57% {left: 0%; width: 97%;}
+	  60% {left: 97%; width: 1%;}
+	  100% {left: 97%; width: 1%;}
+	}
+
+	.rectangle2 { animation: rectangle_animation2_ipad2 14s infinite cubic-bezier(.35,.73,.37,.77);}
+
+	@keyframes rectangle_animation2_ipad2 {
+	  23.5% {width: 1%; left: 97%;}
+	  26.5% {left: 1%; width: 97%;}
+	  73.5% {left: 1%; width: 97%;}
+	  76.5% {left: 1%; width: 1%;}
+	  100% {left: 1%; width: 1%;}
+	}
+
+	.d, .o, .i, .g, .r, .a, .l, .i2, .s, .soft_sign {animation: letter_opacity_ipad2 28s linear infinite; }
+
+	@keyframes letter_opacity_ipad2 {
+	  21% {opacity: 1;}
+	  25% {opacity: 0;}
+	  72% {opacity: 0;}
+	  75% {opacity: 1;}
+	  100% {opacity: 1;}
+	}
+
+	.o2, .p, .e, .n, .t, .a2, .l2, .k {animation: letter_opacity2_ipad2 28s linear infinite;}
+
+	@keyframes letter_opacity2_ipad2 {
+	  21% {opacity: 0;}
+	  25% {opacity: 1;}
+	  55% {opacity: 1;}
+	  75% {opacity: 1;}
+	  76% {opacity: 0;}
+	  100% {opacity: 0;}
+	}
+
 }
 
 @media only screen and (min-width: 1280px) and (max-width: 1365px) {
 	.content {padding-bottom: 138%;}
-	body {height: 1515px;}
-  body::before {background-image: url("../images/skelet_1280_1365.png");}
+	/* body {height: 1515px;} */
+  body::before {background-image: url("../images/skelet_1280_1365_2.png"); animation: skeletappears_1280_1365 10s infinite linear;}
   .big_one {height: 45%;}
 	.big_two {bottom: 0%;}
+
+	@keyframes skeletappears_1280_1365 {
+	  49%{opacity: 0}
+	  50%{opacity: 1}
+	  59%{opacity: 1}
+	  60%{opacity: 0}
+	}
+
+	.d1, .d2, .d8_2, .d11, .d13, .d15, .d17, .d19, .d20, .d21, .d22, .d23, .d24, .d28, .d29, .d30, .d31, .d1_2, .d2_2, .d3_2, .d4_2, .d5_2, .d6_2, .d7_2, .d8_2_2, .d9_2 {animation: restdisappears_1280_1365 10s infinite linear;}
+	@keyframes restdisappears_1280_1365 {
+		49%{opacity: 1}
+		50%{opacity: 0}
+		59%{opacity: 0}
+		60%{opacity: 1}
+	}
 
   .s1 {width: 20%;}
   .s1 .red_lamp {margin-left: 13%; margin-top: 224%;}
@@ -411,20 +568,132 @@
 
 	.d12 {border-radius: 170px;}
 	.d17, .d49, .d12 {border: 45px solid black;}
+
+	.vertical_line {animation: vertical_line_animation_1280_1365 7s cubic-bezier(.35,.73,.37,.77) infinite;}
+	@keyframes vertical_line_animation_1280_1365 {
+		1% {opacity: 1;}
+		2% {opacity: 0;}
+		3% {opacity: 1;}
+		4% {opacity: 0;}
+		5% {opacity: 1;}
+		6% {opacity: 0;}
+		7% {opacity: 1;}
+		8% {opacity: 0;}
+		9% {opacity: 1;}
+		10% {opacity: 0;}
+		11% {opacity: 1;}
+
+		14% {left: 0%; top: 8%;}
+		20% {left: 97%; top: 8%;}
+
+		22% {opacity: 1;}
+		23% {opacity: 0;}
+		24% {opacity: 1;}
+		25% {opacity: 0;}
+		26% {opacity: 1;}
+		27% {opacity: 0;}
+		28% {opacity: 1;}
+		29% {opacity: 0;}
+		30% {opacity: 1;}
+
+		35% {left: 97%; top: 8%;}
+		37% {left: 97%; top: 53%;}
+
+		38% {opacity: 1;}
+		39% {opacity: 0;}
+		40% {opacity: 1;}
+		41% {opacity: 0;}
+		42% {opacity: 1;}
+		43% {opacity: 0;}
+		44% {opacity: 1;}
+		45% {opacity: 0;}
+		46% {opacity: 1;}
+
+		47% {left: 97%; top: 53%; }
+		53% {left: 0%; top: 53%; }
+
+		54% {opacity: 1;}
+		55% {opacity: 0;}
+		56% {opacity: 1;}
+		57% {opacity: 0;}
+		58% {opacity: 1;}
+		59% {opacity: 0;}
+		60% {opacity: 1;}
+		61% {opacity: 0;}
+		62% {opacity: 1;}
+		63% {left: 0%; top: 53%;}
+		65% {left: 0%; top: 8%;}
+	}
+
+	.rectangle {animation: rectangle_animation_1280_1365 14s cubic-bezier(.35,.73,.37,.77) infinite;}
+
+	@keyframes rectangle_animation_1280_1365 {
+		7% {left: 0%; width: 1%;}
+		10% {left: 0%; width: 97%;}
+		57% {left: 0%; width: 97%;}
+		60% {left: 97%; width: 1%;}
+		100% {left: 97%; width: 1%;}
+	}
+
+	.rectangle2 { animation: rectangle_animation2_1280_1365 14s infinite cubic-bezier(.35,.73,.37,.77);}
+
+	@keyframes rectangle_animation2_1280_1365 {
+		23.5% {width: 1%; left: 97%;}
+		26.5% {left: 1%; width: 97%;}
+		73.5% {left: 1%; width: 97%;}
+		76.5% {left: 1%; width: 1%;}
+		100% {left: 1%; width: 1%;}
+	}
+
+	.d, .o, .i, .g, .r, .a, .l, .i2, .s, .soft_sign {animation: letter_opacity_1280_1365 28s linear infinite; }
+
+	@keyframes letter_opacity_1280_1365 {
+		21% {opacity: 1;}
+		25% {opacity: 0;}
+		72% {opacity: 0;}
+		75% {opacity: 1;}
+		100% {opacity: 1;}
+	}
+
+	.o2, .p, .e, .n, .t, .a2, .l2, .k {animation: letter_opacity2_1280_1365 28s linear infinite;}
+
+	@keyframes letter_opacity2_1280_1365 {
+		21% {opacity: 0;}
+		25% {opacity: 1;}
+		55% {opacity: 1;}
+		75% {opacity: 1;}
+		76% {opacity: 0;}
+		100% {opacity: 0;}
+	}
 }
 
 
 @media only screen and (min-width: 1366px) and (max-width: 1439px) {
 	.content {padding-bottom: 132%;}
 	.big_two {bottom: 0%;}
-	body {height: 1450px;}
-  body::before {background-image: url("../images/skelet_1366_1439.png");}
+	/* body {height: 1450px;} */
+  body::before {background-image: url("../images/skelet_1366_1439_2.png"); animation: skeletappears_1366_1439 10s infinite linear;}
   .big_one {height: 42.2%;}
   .s1 {width: 23%;}
 	.s1 .d1 {width: 30%;}
   .s1 .d2 {width: 36%; margin-left: 30%; margin-top: 86%;}
 	.s1 .red_lamp {width: 58%; margin-left: 30%; margin-top: 175%;}
 	.s1 .d6 {width: 25%;}
+
+	@keyframes skeletappears_1366_1439 {
+	  49%{opacity: 0}
+	  50%{opacity: 1}
+	  59%{opacity: 1}
+	  60%{opacity: 0}
+	}
+
+	.d1, .d2, .d8_2, .d11, .d13, .d15, .d17, .d19, .d20, .d21, .d22, .d23, .d24, .d28, .d29, .d30, .d31, .d1_2, .d2_2, .d3_2, .d4_2, .d5_2, .d6_2, .d7_2, .d8_2_2, .d9_2 {animation: restdisappears_1366_1439 10s infinite linear;}
+	@keyframes restdisappears_1366_1439 {
+		49%{opacity: 1}
+		50%{opacity: 0}
+		59%{opacity: 0}
+		60%{opacity: 1}
+	}
 
   .s2 {width: 53.5%;}
   .s2 .d18 {transform: scale(0.9);}
@@ -456,6 +725,103 @@
 
 	.ticket {right: 15.62%; margin-top: 13.1%;}
 
+	.vertical_line {animation: vertical_line_animation_1366_1439 7s cubic-bezier(.35,.73,.37,.77) infinite;}
+	@keyframes vertical_line_animation_1366_1439 {
+		1% {opacity: 1;}
+		2% {opacity: 0;}
+		3% {opacity: 1;}
+		4% {opacity: 0;}
+		5% {opacity: 1;}
+		6% {opacity: 0;}
+		7% {opacity: 1;}
+		8% {opacity: 0;}
+		9% {opacity: 1;}
+		10% {opacity: 0;}
+		11% {opacity: 1;}
+
+		14% {left: 0%; top: 8%;}
+		20% {left: 97%; top: 8%;}
+
+		22% {opacity: 1;}
+		23% {opacity: 0;}
+		24% {opacity: 1;}
+		25% {opacity: 0;}
+		26% {opacity: 1;}
+		27% {opacity: 0;}
+		28% {opacity: 1;}
+		29% {opacity: 0;}
+		30% {opacity: 1;}
+
+		35% {left: 97%; top: 8%;}
+		37% {left: 97%; top: 53%;}
+
+		38% {opacity: 1;}
+		39% {opacity: 0;}
+		40% {opacity: 1;}
+		41% {opacity: 0;}
+		42% {opacity: 1;}
+		43% {opacity: 0;}
+		44% {opacity: 1;}
+		45% {opacity: 0;}
+		46% {opacity: 1;}
+
+		47% {left: 97%; top: 53%; }
+		53% {left: 0%; top: 53%; }
+
+		54% {opacity: 1;}
+		55% {opacity: 0;}
+		56% {opacity: 1;}
+		57% {opacity: 0;}
+		58% {opacity: 1;}
+		59% {opacity: 0;}
+		60% {opacity: 1;}
+		61% {opacity: 0;}
+		62% {opacity: 1;}
+		63% {left: 0%; top: 53%;}
+		65% {left: 0%; top: 8%;}
+	}
+
+	.rectangle {animation: rectangle_animation_1366_1439 14s cubic-bezier(.35,.73,.37,.77) infinite;}
+
+	@keyframes rectangle_animation_1366_1439 {
+		7% {left: 0%; width: 1%;}
+		10% {left: 0%; width: 97%;}
+		57% {left: 0%; width: 97%;}
+		60% {left: 97%; width: 1%;}
+		100% {left: 97%; width: 1%;}
+	}
+
+	.rectangle2 { animation: rectangle_animation2_1366_1439 14s infinite cubic-bezier(.35,.73,.37,.77);}
+
+	@keyframes rectangle_animation2_1366_1439 {
+		23.5% {width: 1%; left: 97%;}
+		26.5% {left: 1%; width: 97%;}
+		73.5% {left: 1%; width: 97%;}
+		76.5% {left: 1%; width: 1%;}
+		100% {left: 1%; width: 1%;}
+	}
+
+	.d, .o, .i, .g, .r, .a, .l, .i2, .s, .soft_sign {animation: letter_opacity_1366_1439 28s linear infinite; }
+
+	@keyframes letter_opacity_1366_1439 {
+		21% {opacity: 1;}
+		25% {opacity: 0;}
+		72% {opacity: 0;}
+		75% {opacity: 1;}
+		100% {opacity: 1;}
+	}
+
+	.o2, .p, .e, .n, .t, .a2, .l2, .k {animation: letter_opacity2_1366_1439 28s linear infinite;}
+
+	@keyframes letter_opacity2_1366_1439 {
+		21% {opacity: 0;}
+		25% {opacity: 1;}
+		55% {opacity: 1;}
+		75% {opacity: 1;}
+		76% {opacity: 0;}
+		100% {opacity: 0;}
+	}
+
 }
 
 @media only screen and (min-width: 1440px) and (max-width: 1679px) {
@@ -465,19 +831,34 @@
 
 @media only screen and (min-width: 1680px) {
 	.content {padding-bottom: 132.7%;}
-	body {height: 1459px;}
-	body::before {background-image: url("../images/skelet_1680.png"); }
-	.big_one {margin-top: 3.3%; height: 44.1%;}
+	/* body {height: 1459px;} */
+	body::before {background-image: url("../images/1680_skelet.png"); top: 3%; animation: skeletappears_1680 10s infinite linear;}
+	.big_one {margin-top: 3.3%; height: 44.1%; }
 	.big_two {bottom: 0%;}
 	.s1 {width: 22%;}
-	.s1 .d1 {width: 33%;}
+	.s1 .d1 {width: 33%; z-index: 1;}
 	.s1 .d2 {height: 16%; width: 30%; margin-top: 93%; margin-left: 33%;}
-	.s1 .d42_1 {height: 7%; width: 34%; margin-top: 154%; margin-left: 24%; background: black; border-radius: 50px; z-index: -1; animation: restdisappears 10s infinite linear;}
+	.s1 .d42_1 {height: 7%; width: 34%; margin-top: 154%; margin-left: 24%; background: black; border-radius: 50px; animation: restdisappears 10s infinite linear;}
 	.s1 .d43_1 {height: 9%; width: 11%; background: #F655A0; position: absolute; right: 0%; bottom: 21%;}
 	.s1 .d6 {margin-top: 1%; margin-left: 53%; width: 27%;}
 	.s1 .d3_2 {height: 23%; width: 22%; margin-top: 83%; margin-left: 57%; background: #00B6F4; border-radius: 50px; animation: turntoblack 2s infinite ease-in;}
 	/* .d3, .d4, .d5 { animation: turntoblack 2s infinite ease-in;} */
 	.s1 .red_lamp {width: 64%; margin-left: 15%; margin-top: 192%;}
+
+	@keyframes skeletappears_1680 {
+	  49%{opacity: 0}
+	  50%{opacity: 1}
+	  59%{opacity: 1}
+	  60%{opacity: 0}
+	}
+
+	.d1, .d2, .d8_2, .d11, .d13, .d15, .d17, .d19, .d20, .d21, .d22, .d23, .d24, .d28, .d29, .d30, .d31, .d1_2, .d2_2, .d3_2, .d4_2, .d5_2, .d6_2, .d7_2, .d8_2_2, .d9_2 {animation: restdisappears_1680 10s infinite linear;}
+	@keyframes restdisappears_1680 {
+		49%{opacity: 1}
+		50%{opacity: 0}
+		59%{opacity: 0}
+		60%{opacity: 1}
+	}
 
 	.s2 {width: 56.3%;}
 	.s2 .d10_2 {height: 20%; width: 20%; border-radius: 50%; background: #FFD42E; position: absolute; margin-top: 40%; margin-left: 40%; animation: eye_yellow 2s infinite ease-in-out;}
@@ -486,7 +867,7 @@
 	.d17, .d12 {border: 60px solid black;}
 	.d49 {border: 61px solid black;}
 
-	.s3 {width: 21.5%; margin-left: -0.6%;}
+	.s3 {width: 21.5%; margin-left: -0.7%;}
 	.s3 .d28 {height: 16%; width: 40%; bottom: 31%;}
 	.s3 .d31_2 {height: 7%; width: 45%; margin-top: 103%; right: 18%; background: black; border-radius: 50px; position: absolute; animation: restdisappears 10s infinite linear;}
 	.s3 .d27_2 {height: 23%; width: 22%; bottom: 24%; margin-left: 25%; background: black; border-radius: 50px; background: #00B6F4; bottom: 27.5%; animation: turntoblack 2s infinite ease-in;}
@@ -564,6 +945,103 @@
 	.a2 {margin-top: 22%; width: 12.5%; margin-left: 41.7%;}
 	.l2 {margin-top: 22%; width: 15%; margin-left: 60%;}
 	.k {margin-top: 22%; width: 12.2%; margin-left: 78%;}
+
+	.vertical_line {animation: vertical_line_animation_1680 7s cubic-bezier(.35,.73,.37,.77) infinite;}
+	@keyframes vertical_line_animation_1680 {
+		1% {opacity: 1;}
+		2% {opacity: 0;}
+		3% {opacity: 1;}
+		4% {opacity: 0;}
+		5% {opacity: 1;}
+		6% {opacity: 0;}
+		7% {opacity: 1;}
+		8% {opacity: 0;}
+		9% {opacity: 1;}
+		10% {opacity: 0;}
+		11% {opacity: 1;}
+
+		14% {left: 0%; top: 8%;}
+		20% {left: 97%; top: 8%;}
+
+		22% {opacity: 1;}
+		23% {opacity: 0;}
+		24% {opacity: 1;}
+		25% {opacity: 0;}
+		26% {opacity: 1;}
+		27% {opacity: 0;}
+		28% {opacity: 1;}
+		29% {opacity: 0;}
+		30% {opacity: 1;}
+
+		35% {left: 97%; top: 8%;}
+		37% {left: 97%; top: 53%;}
+
+		38% {opacity: 1;}
+		39% {opacity: 0;}
+		40% {opacity: 1;}
+		41% {opacity: 0;}
+		42% {opacity: 1;}
+		43% {opacity: 0;}
+		44% {opacity: 1;}
+		45% {opacity: 0;}
+		46% {opacity: 1;}
+
+		47% {left: 97%; top: 53%; }
+		53% {left: 0%; top: 53%; }
+
+		54% {opacity: 1;}
+		55% {opacity: 0;}
+		56% {opacity: 1;}
+		57% {opacity: 0;}
+		58% {opacity: 1;}
+		59% {opacity: 0;}
+		60% {opacity: 1;}
+		61% {opacity: 0;}
+		62% {opacity: 1;}
+		63% {left: 0%; top: 53%;}
+		65% {left: 0%; top: 8%;}
+	}
+
+	.rectangle {animation: rectangle_animation_1680 14s cubic-bezier(.35,.73,.37,.77) infinite;}
+
+	@keyframes rectangle_animation_1680 {
+		7% {left: 0%; width: 1%;}
+		10% {left: 0%; width: 97%;}
+		57% {left: 0%; width: 97%;}
+		60% {left: 97%; width: 1%;}
+		100% {left: 97%; width: 1%;}
+	}
+
+	.rectangle2 { animation: rectangle_animation2_1680 14s infinite cubic-bezier(.35,.73,.37,.77);}
+
+	@keyframes rectangle_animation2_1680 {
+		23.5% {width: 1%; left: 97%;}
+		26.5% {left: 1%; width: 97%;}
+		73.5% {left: 1%; width: 97%;}
+		76.5% {left: 1%; width: 1%;}
+		100% {left: 1%; width: 1%;}
+	}
+
+	.d, .o, .i, .g, .r, .a, .l, .i2, .s, .soft_sign {animation: letter_opacity_1680 28s linear infinite; }
+
+	@keyframes letter_opacity_1680 {
+		21% {opacity: 1;}
+		25% {opacity: 0;}
+		72% {opacity: 0;}
+		75% {opacity: 1;}
+		100% {opacity: 1;}
+	}
+
+	.o2, .p, .e, .n, .t, .a2, .l2, .k {animation: letter_opacity2_1680 28s linear infinite;}
+
+	@keyframes letter_opacity2_1680 {
+		21% {opacity: 0;}
+		25% {opacity: 1;}
+		55% {opacity: 1;}
+		75% {opacity: 1;}
+		76% {opacity: 0;}
+		100% {opacity: 0;}
+	}
 
 }
 
