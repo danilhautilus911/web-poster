@@ -38,7 +38,6 @@
 	.s5 .d37 {height: 100%; width: 37%; background: #F24941; margin-left: 31px;}
 	.s5 .d36 {height: 100%; width: 37%; background: #F24941;}
 
-
 	.big_two {height: 51.2%; margin-top: -4%;}
 	.d46 img {width: 100%;}
 
@@ -74,67 +73,89 @@
 	.s {margin-top: 103.5%; height: 22%; width: 25.4%; margin-left: 38%;}
 	.soft_sign {margin-top: 103.5%; height: 22%; width: 26%; margin-left: 67%;}
 
-	.o2 {width: 25.5%; height: 22%; margin-top: 2.5%; margin-left: 6.5%; opacity: 1;}
-	.p {width: 25.5%; height: 22%; margin-top: 2.5%;  margin-left: 38%; opacity: 1;}
-	.e {width: 25.5%; height: 22%; margin-left: 6.5%; margin-top: 36%;  opacity: 1;}
-	.n {width: 30.6%; height: 22%; margin-left: 33.5%; margin-top: 36%; opacity: 1;}
-	.t {width: 25.5%; height: 22%; margin-top: 70%; margin-left: 38.5%; opacity: 1;}
-	.a2 {width: 26%; height: 22%; margin-left: 66.7%; margin-top: 70%; opacity: 1;}
-	.l2 {width: 30%; height: 22%; margin-left: 39%; margin-top: 103.5%; opacity: 1;}
-	.k {width: 25.5%; height: 22%; margin-left: 67%; margin-top: 103.5%; opacity: 1;}
+	.d, .o, .i, .g, .r, .a, .l, .i2, .s, .soft_sign {animation: letter_opacity3 14s linear infinite;}
 
-	.vertical_line, .vertical_line2, .vertical_line3, .vertical_line4 { height: 22%; width: 5.5%; animation: vertical_line_animation_iphone 7s ease-in infinite; background-color: red; position: absolute; left: 0%; top: 35%; border-radius: 50px; z-index: 5;}
+	@keyframes letter_opacity3 {
+		19% {opacity: 1;}
+	  20% {opacity: 0;}
+
+		69% {opacity: 0;}
+	  70% {opacity: 1;}
+	  100% {opacity: 1;}
+	}
+
+	.o2 {width: 25.5%; height: 22%; margin-top: 2.5%; margin-left: 6.5%; opacity: 0;}
+	.p {width: 25.5%; height: 22%; margin-top: 2.5%;  margin-left: 38%; opacity: 0;}
+	.e {width: 25.5%; height: 22%; margin-left: 6.5%; margin-top: 36%;  opacity: 0;}
+	.n {width: 30.6%; height: 22%; margin-left: 33.5%; margin-top: 36%; opacity: 0;}
+	.t {width: 25.5%; height: 22%; margin-top: 70%; margin-left: 38.5%; opacity: 0;}
+	.a2 {width: 26%; height: 22%; margin-left: 66.7%; margin-top: 70%; opacity: 0;}
+	.l2 {width: 30%; height: 22%; margin-left: 39%; margin-top: 103.5%; opacity: 0;}
+	.k {width: 25.5%; height: 22%; margin-left: 67%; margin-top: 103.5%; opacity: 0;}
+
+	.o2, .p, .e, .n, .t, .a2, .l2, .k {animation: letter_opacity4 14s linear infinite;}
+
+	@keyframes letter_opacity4 {
+		20% {opacity: 0;}
+		21% {opacity: 1;}
+		69% {opacity: 1;}
+		70% {opacity: 0;}
+	}
+
+	.vertical_line, .vertical_line2, .vertical_line3, .vertical_line4 { height: 22%; width: 5%; animation: vertical_line_animation_iphone 7s ease-in infinite; background-color: red; position: absolute; left: 0%; top: 35%; border-radius: 50px; z-index: 5;}
 	.vertical_line {top: 1.5%;}
 	.vertical_line2 {top: 26.5%;}
 	.vertical_line3 {top: 50.1%;}
 	.vertical_line4 {top: 75%;}
 
 	@keyframes vertical_line_animation_iphone {
-		10% {opacity: 1;}
-	  11% {opacity: 0;}
-	  12% {opacity: 1;}
-	  13% {opacity: 0;}
-	  14% {opacity: 1;}
-	  15% {opacity: 0;}
-	  16% {opacity: 1;}
-	  17% {opacity: 0;}
-	  18% {opacity: 1;}
-	  19% {opacity: 0;}
-	  20% {opacity: 1;}
+		15% {opacity: 1;}
+	  16% {opacity: 0;}
+	  17% {opacity: 1;}
+	  18% {opacity: 0;}
+	  19% {opacity: 1;}
+	  20% {opacity: 0;}
+	  21% {opacity: 1;}
+	  22% {opacity: 0;}
+	  23% {opacity: 1;}
+	  24% {opacity: 0;}
+	  25% {opacity: 1;}
 
-	  21% {transform: translateX(0);}
-	  30% {transform: translateX(893px);}
+	  26% {left: 0%;}
+	  35% {left: 94.5%;}
 
-		31% {opacity: 1;}
-		32% {opacity: 0;}
-		33% {opacity: 1;}
-		34% {opacity: 0;}
-		35% {opacity: 1;}
-		36% {opacity: 0;}
-		37% {opacity: 1;}
-		38% {opacity: 0;}
-		39% {opacity: 1;}
-		40% {opacity: 0;}
-		41% {opacity: 1;}
+		65% {left: 94.5%; opacity: 1;}
 
-		50% {transform: translateX(893px);}
-	  60% {transform: translateX(0px);}
-		100% {transform: translateX(0px);}
+		66% {opacity: 0;}
+		67% {opacity: 1;}
+		68% {opacity: 0;}
+		69% {opacity: 1;}
+		70% {opacity: 0;}
+		71% {opacity: 1;}
+		72% {opacity: 0;}
+		73% {opacity: 1;}
+		74% {opacity: 0;}
+		75% {opacity: 1;}
+
+		76% {left: 94.5%;}
+		85% {left: 0%;}
+		100% {left: 0%;}
 	}
 
-	.rectangle, .rectangle2, .rectangle3, .rectangle4 { background-color: white; height: 29%; width: 3%; position: absolute; left: 0%; top: 34%; z-index: 4; animation: rectangle_animation_iphone 7s ease-in infinite;}
+	.rectangle, .rectangle2, .rectangle3, .rectangle4 {background-color: white; height: 29%; width: 3%; position: absolute; left: 0%; top: 34%; z-index: 4; animation: rectangle_animation_iphone 7s ease-in infinite;}
 	.rectangle {top: 1.5%;}
 	.rectangle2 {top: 26.5%;}
 	.rectangle3 {top: 50.1%;}
 	.rectangle4 {top: 75%; height: 25%;}
 
 	@keyframes rectangle_animation_iphone {
-		21% {width: 3%;}
-		30% {width: 893px;}
-		50% {width: 893px;}
-		60% {width: 3%;}
+		26% {width: 3%;}
+		35% {width: 99%;}
+		76% {width: 99%;}
+		85% {width: 3%;}
 		100% {width: 3%;}
 	}
+
 	.d12 {border-radius: 170px;}
 	.d17, .d49, .d12 {border: 42px solid black;}
 }
@@ -228,32 +249,10 @@
 	.l2 {width: 21%; height: 27%; margin-left: 53%; margin-top: 51.5%; }
 	.k {width: 16.2%; height: 27%; margin-left: 78%; margin-top: 51.5%; }
 
-	.vertical_line {height: 27%; top: 4%;
-	animation: vertical_line_animation_ipad 7s ease-in infinite;}
-
-	.vertical_line2 {
-	  background-color: red;
-	  height: 27%;
-	  width: 3%;
-	  position: absolute;
-	  left: 0%;
-	  top: 35%;
-	  border-radius: 50px;
-	  z-index: 5;
-	  animation: vertical_line_animation_ipad 7s ease-in infinite;
-	}
-
-	.vertical_line3 {
-		background-color: red;
-		height: 27%;
-		width: 3%;
-		position: absolute;
-		left: 0%;
-		top: 66%;
-		border-radius: 50px;
-		z-index: 5;
-		animation: vertical_line_animation_ipad 7s ease-in infinite;
-	}
+	.vertical_line, .vertical_line2, .vertical_line3 {background-color: red; height: 27%; width: 4%; position: absolute; left: 0%; border-radius: 50px; z-index: 5; animation: vertical_line_animation_ipad 7s ease-in infinite;}
+	.vertical_line {top: 4%;}
+	.vertical_line2 {top: 35%;}
+	.vertical_line3 {top: 66%;}
 
 @keyframes vertical_line_animation_ipad {
 	10% {opacity: 1;}
@@ -268,8 +267,8 @@
   19% {opacity: 0;}
   20% {opacity: 1;}
 
-  21% {transform: translateX(0);}
-  30% {transform: translateX(893px);}
+  21% {left: 0%;}
+  30% {left: 96%;}
 
 	31% {opacity: 1;}
 	32% {opacity: 0;}
@@ -283,40 +282,20 @@
 	40% {opacity: 0;}
 	41% {opacity: 1;}
 
-	50% {transform: translateX(893px);}
-  60% {transform: translateX(0px);}
-	100% {transform: translateX(0px);}
+	50% {left: 96%;}
+  60% {left: 0%;}
+	100% {left: 0%;}
 }
-	.rectangle {
-	  background-color: white;
-	  height: 29%;
-	  top: 3%;
-	  animation: rectangle_animation 7s ease-in infinite;
-	}
-	.rectangle3 {
-	  background-color: white;
-	  height: 29%;
-	  width: 3%;
-	  position: absolute;
-	  left: 0%;
-	  top: 34%;
-	  z-index: 4;
-	  animation: rectangle_animation 7s ease-in infinite;
-	}
-	.rectangle4 {
-	  background-color: white;
-	  height: 29%;
-	  width: 3%;
-	  position: absolute;
-	  left: 0%;
-	  top: 65%;
-	  z-index: 4;
-	  animation: rectangle_animation 7s ease-in infinite;
-	}
-	@keyframes rectangle_animation {
+	.rectangle2 {display: none;}
+	.rectangle {top: 3%;}
+	.rectangle3 {top: 34%;}
+	.rectangle4 {top: 65%;}
+	.rectangle, .rectangle3, .rectangle4 {background-color: white; height: 29%; width: 3%; position: absolute; left: 0%; z-index: 4; animation: rectangle_animation_ipad 7s ease-in infinite;}
+
+@keyframes rectangle_animation_ipad {
 	  21% {width: 3%;}
-	  30% {width: 893px;}
-		50% {width: 893px;}
+	  30% {width: 97%;}
+		50% {width: 97%;}
 	  60% {width: 3%;}
 		100% {width: 3%;}
 	}
@@ -504,9 +483,10 @@
 	.s2 .d10_2 {height: 20%; width: 20%; border-radius: 50%; background: #FFD42E; position: absolute; margin-top: 40%; margin-left: 40%; animation: eye_yellow 2s infinite ease-in-out;}
 
 	.d12 {border-radius: 170px;}
-	.d17, .d49, .d12 {border: 60px solid black;}
+	.d17, .d12 {border: 60px solid black;}
+	.d49 {border: 61px solid black;}
 
-	.s3 {width: 21.5%;}
+	.s3 {width: 21.5%; margin-left: -0.6%;}
 	.s3 .d28 {height: 16%; width: 40%; bottom: 31%;}
 	.s3 .d31_2 {height: 7%; width: 45%; margin-top: 103%; right: 18%; background: black; border-radius: 50px; position: absolute; animation: restdisappears 10s infinite linear;}
 	.s3 .d27_2 {height: 23%; width: 22%; bottom: 24%; margin-left: 25%; background: black; border-radius: 50px; background: #00B6F4; bottom: 27.5%; animation: turntoblack 2s infinite ease-in;}
@@ -585,56 +565,6 @@
 	.l2 {margin-top: 22%; width: 15%; margin-left: 60%;}
 	.k {margin-top: 22%; width: 12.2%; margin-left: 78%;}
 
-	@keyframes vertical_line_animation {
-	  1% {opacity: 1;}
-	  2% {opacity: 0;}
-	  3% {opacity: 1;}
-	  4% {opacity: 0;}
-	  5% {opacity: 1;}
-	  6% {opacity: 0;}
-	  7% {opacity: 1;}
-	  8% {opacity: 0;}
-	  9% {opacity: 1;}
-	  10% {opacity: 0;}
-	  11% {opacity: 1;}
-	  14% {transform: translateX(0);}
-	  20% {transform: translateX(1000px);}
-	  22% {opacity: 1;}
-	  23% {opacity: 0;}
-	  24% {opacity: 1;}
-	  25% {opacity: 0;}
-	  26% {opacity: 1;}
-	  27% {opacity: 0;}
-	  28% {opacity: 1;}
-	  29% {opacity: 0;}
-	  30% {opacity: 1;}
-	  35% {transform: translateX(1000px);}
-	  /* 100% {transform: translateX(920px);} */
-	  37% {transform: translateY(500px) translateX(1000px);}
-	  /* 100% {transform: translateY(180px) translateX(920px);} */
-	  38% {opacity: 1;}
-	  39% {opacity: 0;}
-	  40% {opacity: 1;}
-	  41% {opacity: 0;}
-	  42% {opacity: 1;}
-	  43% {opacity: 0;}
-	  44% {opacity: 1;}
-	  45% {opacity: 0;}
-	  46% {opacity: 1;}
-	  47% {transform: translateY(500px) translateX(1000px);}
-	  53% {transform: translateY(500px);}
-	  54% {opacity: 1;}
-	  55% {opacity: 0;}
-	  56% {opacity: 1;}
-	  57% {opacity: 0;}
-	  58% {opacity: 1;}
-	  59% {opacity: 0;}
-	  60% {opacity: 1;}
-	  61% {opacity: 0;}
-	  62% {opacity: 1;}
-	  63% {transform: translateY(500px);}
-	  65% {transform: translateY(0) translateX(0);}
-	}
 }
 
 @media only screen and (min-width: 1224px) {
