@@ -959,7 +959,7 @@ body::before {
   z-index: 2;
   /* background: red; */
   animation: rectangle_animation 14s cubic-bezier(.35,.73,.37,.77) infinite;
-  animation-play-state: paused;
+  /* animation-play-state: paused; */
 }
 
 @keyframes rectangle_animation {
@@ -980,7 +980,7 @@ body::before {
   z-index: 2;
   /* background: red; */
   animation: rectangle_animation2 14s infinite cubic-bezier(.35,.73,.37,.77);
-  animation-play-state: paused;
+  /* animation-play-state: paused; */
 }
 
 @keyframes rectangle_animation2 {
