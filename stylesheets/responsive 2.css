@@ -19,7 +19,7 @@
 		60%{opacity: 0}
 	}
 
-	.d1, .d2, .d8_2, .d11, .d13, .d15, .d17, .d19, .d20, .d21, .d22, .d23, .d24, .d28, .d29, .d30, .d31, .d1_2, .d2_2, .d3_2, .d4_2, .d5_2, .d6_2, .d7_2, .d8_2_2, .d9_2 {animation: restdisappears_iphone1 10s infinite linear;}
+	.d1, .d2, .d8_2, .d11, .d13, .d15, .d17, .d19, .d20, .d21, .d22, .d23, .d28, .d29, .d30, .d31, .d1_2, .d2_2, .d3_2, .d4_2, .d5_2, .d6_2, .d7_2, .d8_2_2, .d9_2 {animation: restdisappears_iphone1 10s infinite linear;}
 
 	@keyframes restdisappears_iphone1 {
 		49%{opacity: 1}
@@ -194,7 +194,7 @@
 	  60%{opacity: 0}
 	}
 
-	.d1, .d2, .d8_2, .d11, .d13, .d15, .d17, .d19, .d20, .d21, .d22, .d23, .d24, .d28, .d29, .d30, .d31, .d1_2, .d2_2, .d3_2, .d4_2, .d5_2, .d6_2, .d7_2, .d8_2_2, .d9_2 {animation: restdisappears_iphone 10s infinite linear;}
+	.d1, .d2, .d8_2, .d11, .d13, .d15, .d17, .d19, .d20, .d21, .d22, .d23, .d28, .d29, .d30, .d31, .d1_2, .d2_2, .d3_2, .d4_2, .d5_2, .d6_2, .d7_2, .d8_2_2, .d9_2 {animation: restdisappears_iphone 10s infinite linear;}
 
 	@keyframes restdisappears_iphone {
 	  49%{opacity: 1}
@@ -372,7 +372,7 @@
 	  60%{opacity: 0}
 	}
 
-	.d1, .d2, .d8_2, .d11, .d13, .d15, .d17, .d19, .d20, .d21, .d22, .d23, .d24, .d28, .d29, .d30, .d31, .d1_2, .d2_2, .d3_2, .d4_2, .d5_2, .d6_2, .d7_2, .d8_2_2, .d9_2 {animation: restdisappears_ipad1 10s infinite linear;}
+	.d1, .d2, .d8_2, .d11, .d13, .d15, .d17, .d19, .d20, .d21, .d22, .d23, .d28, .d29, .d30, .d31, .d1_2, .d2_2, .d3_2, .d4_2, .d5_2, .d6_2, .d7_2, .d8_2_2, .d9_2 {animation: restdisappears_ipad1 10s infinite linear;}
 	/* .d1_2, .d2_2, .d3_2, .d4_2, .d5_2, .d6_2, .d7_2, .d8_2_2, .d9_2 {animation: restdisappears_ipad1 10s infinite linear;} */
 
 	@keyframes restdisappears_ipad1 {
@@ -385,7 +385,7 @@
 /* это новая строчка, которая появляется начиная с айпада */
 	.s1_2 {position: relative; width: 100%; height: 22.5%;}
 	.s1_2 div {display: inline-block; vertical-align: top;}
-	.d1_2 {width: 7.2%; height: 200%; background: black;}
+	.d1_2 {width: 7.4%; height: 200%; background: black;}
 	.d2_2 {width: 9%; height: 70%; background: #00B6F4; margin-left: -5px;}
 	.d3_2 {width: 3%; height: 70%; background: black; margin-left: -5px;}
 	.d4_2 {width: 7%; height: 89%; background: #00B6F4; margin-left: -5px;}
@@ -577,7 +577,7 @@
 	  60%{opacity: 0}
 	}
 
-	.d1, .d2, .d8_2, .d11, .d13, .d15, .d17, .d19, .d20, .d21, .d22, .d23, .d24, .d28, .d29, .d30, .d31, .d1_2, .d2_2, .d3_2, .d4_2, .d5_2, .d6_2, .d7_2, .d8_2_2, .d9_2 {animation: restdisappears_ipad2 10s infinite linear;}
+	.d1, .d2, .d8_2, .d11, .d13, .d15, .d17, .d19, .d20, .d21, .d22, .d23, .d28, .d29, .d30, .d31, .d1_2, .d2_2, .d3_2, .d4_2, .d5_2, .d6_2, .d7_2, .d8_2_2, .d9_2 {animation: restdisappears_ipad2 10s infinite linear;}
 	@keyframes restdisappears_ipad2 {
 		49%{opacity: 1}
 		50%{opacity: 0}
@@ -592,7 +592,6 @@
 	.s1 .d5 {height: 50%; width: 50%; margin-top: 49%; margin-left: 78%;}
 	.s1 .red_lamp {height: 23.5%; width: 108%; margin-left: -48%; margin-top: 321%;}
 	.s1 .d6 {display: none;}
-  .s1 .d6 {display: none;}
   .s1 .d2 {display: none;}
   .s1 .d401 {display: none;}
 
@@ -608,9 +607,9 @@
 	.s3 .d26 {height: 40%; width: 41%; bottom: 21%;}
 	.s3 .d27 {height: 30%; width: 36%; bottom: 26%; margin-left: 40px;}
 	.s3 .d28 {display: none;}
-	.s3 .d29 {height: 70%; width: 40%; margin-top: 0; margin-left: -0.5%;}
-	.s3 .d30 {width: 40%;}
-	.s3 .d31 {width: 40%; margin-top: 79%;}
+	.s3 .d29 {height: 70%; width: 43%; margin-top: 0; right: 0% !important;}
+	.s3 .d30 {width: 43%;}
+	.s3 .d31 {width: 43%; margin-top: 79%;}
 
   .s4 {width: 19%; height: 31%; top: -7.3%; right: 8.4%;}
   .s4 .d32 {display: none;}
@@ -746,7 +745,6 @@
 	.d39 {width: 7% !important; margin-left: 18% !important; height: 80%; margin-top: 8% !important; background: black; border-radius: 50px;}
 	.d50, .d51, .d52, .d57, .d58, .d59 {height: 37%;}
 	.d54 {width: 37%;}
-
 }
 
 @media only screen and (min-width: 1280px) and (max-width: 1365px) {
@@ -763,7 +761,7 @@
 	  60%{opacity: 0}
 	}
 
-	.d1, .d2, .d8_2, .d11, .d13, .d15, .d17, .d19, .d20, .d21, .d22, .d23, .d24, .d28, .d29, .d30, .d31, .d1_2, .d2_2, .d3_2, .d4_2, .d5_2, .d6_2, .d7_2, .d8_2_2, .d9_2 {animation: restdisappears_1280_1365 10s infinite linear;}
+	.d1, .d2, .d8_2, .d11, .d13, .d15, .d17, .d19, .d20, .d21, .d22, .d23, .d28, .d29, .d30, .d31, .d1_2, .d2_2, .d3_2, .d4_2, .d5_2, .d6_2, .d7_2, .d8_2_2, .d9_2 {animation: restdisappears_1280_1365 10s infinite linear;}
 	@keyframes restdisappears_1280_1365 {
 		49%{opacity: 1}
 		50%{opacity: 0}
@@ -772,7 +770,7 @@
 	}
 
   .s1 {width: 20%;}
-  .s1 .red_lamp {margin-left: 13%; margin-top: 224%;}
+  .s1 .red_lamp {margin-left: 13%; margin-top: 234%;}
 
   .s2 {width: 59%; height: 95%; margin-top: 3.5%;}
   .s2 .d18 {transform: scale(0.9);}
@@ -781,7 +779,7 @@
 
   .s3 {width: 20.7%;}
 
-	.s4 {top: 1.7%; right: 9.7%;}
+	.s4 {top: 1.7%; right: 9%;}
 
 	.big_two {margin-top: -2.5%; height: 57%;}
 	.s7 {height: 33%;}
@@ -829,7 +827,7 @@
 		30% {opacity: 1;}
 
 		35% {left: 97%; top: 8%;}
-		37% {left: 97%; top: 53%;}
+		37% {left: 97%; top: 48%;}
 
 		38% {opacity: 1;}
 		39% {opacity: 0;}
@@ -841,8 +839,8 @@
 		45% {opacity: 0;}
 		46% {opacity: 1;}
 
-		47% {left: 97%; top: 53%; }
-		53% {left: 0%; top: 53%; }
+		47% {left: 97%; top: 48%; }
+		53% {left: 0%; top: 48%; }
 
 		54% {opacity: 1;}
 		55% {opacity: 0;}
@@ -853,7 +851,7 @@
 		60% {opacity: 1;}
 		61% {opacity: 0;}
 		62% {opacity: 1;}
-		63% {left: 0%; top: 53%;}
+		63% {left: 0%; top: 48%;}
 		65% {left: 0%; top: 8%;}
 	}
 
@@ -867,7 +865,7 @@
 		100% {left: 97%; width: 1%;}
 	}
 
-	.rectangle2 { animation: rectangle_animation2_1280_1365 14s infinite cubic-bezier(.35,.73,.37,.77);}
+	.rectangle2 { animation: rectangle_animation2_1280_1365 14s infinite cubic-bezier(.35,.73,.37,.77); top: 48%;}
 
 	@keyframes rectangle_animation2_1280_1365 {
 		23.5% {width: 1%; left: 97%;}
@@ -898,8 +896,26 @@
 		100% {opacity: 0;}
 	}
 
-	.d37_2, .d42_1, .d31_2, .d36_2, .d3_2, .d27_2, .d10_2 {display: none;}
-
+	.d37_2, .d42_1, .d31_2, .d36_2, .d3_2, .d27_2, .d10_2, .d35_2, .d35_3, .d35_4, .d35_5, .d49_2, .d43_2, .d39, .d40, .d43_1 {display: none;}
+	.d45 {margin-top: 3.5%; height: 4%;}
+	.d2 {width: 35% !important;}
+	.d47 {width: 3%; height: 30%; margin-top: 4%; margin-left: 54%;}
+	.d54 {width: 37%; margin-left: 70%; }
+	.d55 {margin-left: 93%; }
+	.d44 {width: 27.5%; height: 22%; margin-top: 0; margin-left: 0; top: 3%; left: -0.9%;}
+	.d444 {width: 17%; height: 21%; margin-top: 3%; margin-left: 0; top: 6.5%; left: 34%;}
+	.d44_3 {width: 14%;}
+	.d46 {width: 34% !important; height: 19%; right: 5%; top: -1%; border-radius: 35px;}
+	.d46 img {width: 91% !important; margin-left: 5%; margin-top: 5.5% !important; height: 76% !important;}
+	.ticket {width: 10.8%; top: 3%; right: 16.5%;}
+	.ticket img {height: 50%; top: -10.5%;}
+	.d38 {width: 37%; height: 19% !important; margin-top: 9% !important;}
+	.d38 div {height: 60%;}
+	.d40, .d41, .d42, .d43 {width: 7% !important; margin-left: 8% !important; height: 80%; margin-top: 7% !important; background: black; border-radius: 50px;}
+	.d39 {width: 7% !important; margin-left: 19% !important; height: 80%; margin-top: 7% !important; background: black; border-radius: 50px;}
+	.d43_2 {display: none !important;}
+	.d60 {height: 12%;}
+	.d6 {height: 13%;}
 }
 
 
@@ -922,7 +938,7 @@
 	  60%{opacity: 0}
 	}
 
-	.d1, .d2, .d8_2, .d11, .d13, .d15, .d17, .d19, .d20, .d21, .d22, .d23, .d24, .d28, .d29, .d30, .d31, .d1_2, .d2_2, .d3_2, .d4_2, .d5_2, .d6_2, .d7_2, .d8_2_2, .d9_2 {animation: restdisappears_1366_1439 10s infinite linear;}
+	.d1, .d2, .d8_2, .d11, .d13, .d15, .d17, .d19, .d20, .d21, .d22, .d23, .d28, .d29, .d30, .d31, .d1_2, .d2_2, .d3_2, .d4_2, .d5_2, .d6_2, .d7_2, .d8_2_2, .d9_2 {animation: restdisappears_1366_1439 10s infinite linear;}
 	@keyframes restdisappears_1366_1439 {
 		49%{opacity: 1}
 		50%{opacity: 0}
@@ -941,7 +957,7 @@
   .s3 {width: 23.1%;}
   .s3 .d28 {bottom: 29%;}
 
-	.s4 {width: 16%; right: 10%;}
+	.s4 {width: 16%; right: 11%;}
 	.s4 .d32 {width: 84%; margin-left: 0%;}
 
   .s5 {right: 5%;}
@@ -950,7 +966,6 @@
 	.s7 {height: 33.4%;}
 	.d38 {width: 32%;}
 	.d44, .d444 {margin-left: 31.8%; width: 19%;}
-	.d47 {width: 3%; height: 34%; margin-top: 0; margin-left: 54%;}
 	.d46 {right: 3.5%; margin-top: 7.5%;}
 	.d48, .d53, .d56 {display: none;}
 	.d54 {margin-left: 74%;}
@@ -962,6 +977,142 @@
 
 	.vertical_line {animation: vertical_line_animation_1366_1439 7s cubic-bezier(.35,.73,.37,.77) infinite;}
 	@keyframes vertical_line_animation_1366_1439 {
+		1% {opacity: 1;}
+		2% {opacity: 0;}
+		3% {opacity: 1;}
+		4% {opacity: 0;}
+		5% {opacity: 1;}
+		6% {opacity: 0;}
+		7% {opacity: 1;}
+		8% {opacity: 0;}
+		9% {opacity: 1;}
+		10% {opacity: 0;}
+		11% {opacity: 1;}
+
+		14% {left: 0%; top: 8%;}
+		20% {left: 97%; top: 8%;}
+
+		22% {opacity: 1;}
+		23% {opacity: 0;}
+		24% {opacity: 1;}
+		25% {opacity: 0;}
+		26% {opacity: 1;}
+		27% {opacity: 0;}
+		28% {opacity: 1;}
+		29% {opacity: 0;}
+		30% {opacity: 1;}
+
+		35% {left: 97%; top: 8%;}
+		37% {left: 97%; top: 48%;}
+
+		38% {opacity: 1;}
+		39% {opacity: 0;}
+		40% {opacity: 1;}
+		41% {opacity: 0;}
+		42% {opacity: 1;}
+		43% {opacity: 0;}
+		44% {opacity: 1;}
+		45% {opacity: 0;}
+		46% {opacity: 1;}
+
+		47% {left: 97%; top: 48%; }
+		53% {left: 0%; top: 48%; }
+
+		54% {opacity: 1;}
+		55% {opacity: 0;}
+		56% {opacity: 1;}
+		57% {opacity: 0;}
+		58% {opacity: 1;}
+		59% {opacity: 0;}
+		60% {opacity: 1;}
+		61% {opacity: 0;}
+		62% {opacity: 1;}
+		63% {left: 0%; top: 48%;}
+		65% {left: 0%; top: 8%;}
+	}
+
+	.rectangle {animation: rectangle_animation_1366_1439 14s cubic-bezier(.35,.73,.37,.77) infinite;}
+
+	@keyframes rectangle_animation_1366_1439 {
+		7% {left: 0%; width: 1%;}
+		10% {left: 0%; width: 97%;}
+		57% {left: 0%; width: 97%;}
+		60% {left: 97%; width: 1%;}
+		100% {left: 97%; width: 1%;}
+	}
+
+	.rectangle2 {animation: rectangle_animation2_1366_1439 14s infinite cubic-bezier(.35,.73,.37,.77); top: 48%;}
+
+	@keyframes rectangle_animation2_1366_1439 {
+		23.5% {width: 1%; left: 97%;}
+		26.5% {left: 1%; width: 97%;}
+		73.5% {left: 1%; width: 97%;}
+		76.5% {left: 1%; width: 1%;}
+		100% {left: 1%; width: 1%;}
+	}
+
+	.d, .o, .i, .g, .r, .a, .l, .i2, .s, .soft_sign {animation: letter_opacity_1366_1439 28s linear infinite; }
+
+	@keyframes letter_opacity_1366_1439 {
+		21% {opacity: 1;}
+		25% {opacity: 0;}
+		72% {opacity: 0;}
+		75% {opacity: 1;}
+		100% {opacity: 1;}
+	}
+
+	.o2, .p, .e, .n, .t, .a2, .l2, .k {animation: letter_opacity2_1366_1439 28s linear infinite;}
+
+	@keyframes letter_opacity2_1366_1439 {
+		21% {opacity: 0;}
+		25% {opacity: 1;}
+		55% {opacity: 1;}
+		75% {opacity: 1;}
+		76% {opacity: 0;}
+		100% {opacity: 0;}
+	}
+
+	.d37_2, .d42_1, .d31_2, .d36_2, .d3_2, .d27_2, .d10_2, .d35_2, .d35_3, .d35_4, .d35_5, .d49_2, .d43_2, .d39, .d40, .d43_1 {display: none;}
+	.d43_2 {display: none !important; }
+	.d45 {margin-top: 4%; height: 4%;}
+	.d44 {width: 27.5%; height: 22%; margin-top: 0; margin-left: 0; top: 3%; left: -0.9%;}
+	.d444 {width: 17%; height: 21%; margin-top: 3%; margin-left: 0; top: 6.5%; left: 34%;}
+	.d44_3 {width: 14%;}
+	.d46 {width: 34% !important; height: 19%; right: 5%; top: -1%; border-radius: 35px;}
+	.d46 img {width: 91% !important; margin-left: 5%; margin-top: 5.5% !important; height: 76% !important;}
+	.ticket {width: 10.8%; top: 3%; right: 16.5%;}
+	.ticket img {height: 50%; top: -10.5%;}
+	.d38 {width: 37%; height: 19% !important; margin-top: 9% !important;}
+	.d38 div {height: 60%;}
+ 	.d40, .d41, .d42, .d43 {width: 7% !important; margin-left: 8% !important; height: 80%; margin-top: 8% !important; background: black; border-radius: 50px;}
+	.d39 {width: 7% !important; margin-left: 18% !important; height: 80%; margin-top: 8% !important; background: black; border-radius: 50px;}
+	.d50, .d51, .d52, .d57, .d58, .d59 {height: 37%;}
+	.d54 {width: 37%; margin-left: 70%; }
+	.d55 {margin-left: 93%; }
+	.d60 {height: 12%;}
+
+
+	.d40, .d41, .d42, .d43 {width: 6% !important; margin-left: 8% !important; height: 80%; margin-top: 5.5% !important; background: black; border-radius: 50px;}
+	.d39 {width: 6% !important; margin-left: 21% !important; height: 80%; margin-top:5.5% !important; background: black; border-radius: 50px;}
+	.d47 {width: 3%; height: 30%; margin-top: 5%; margin-left: 54% !important;}
+
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1679px) {
+	body::before {background-image: url("../images/skelet_2.png"); animation: skeletappears_1440 10s infinite linear;}
+	@keyframes skeletappears_1440 {
+		49%{opacity: 0}
+		50%{opacity: 1}
+		59%{opacity: 1}
+		60%{opacity: 0}
+	}
+
+	.d12 {border-radius: 170px;}
+	.d17, .d49, .d12 {border: 55px solid black;}
+	.d37_2, .d42_1, .d31_2, .d36_2, .d3_2, .d27_2, .d10_2, .d35_2, .d35_3, .d35_4, .d35_5, .d49_2, .d43_2, .d39, .d40, .d43_1 {display: none;}
+
+	.vertical_line {animation: vertical_line_animation_1440 7s cubic-bezier(.35,.73,.37,.77) infinite;}
+	@keyframes vertical_line_animation_1440 {
 		1% {opacity: 1;}
 		2% {opacity: 0;}
 		3% {opacity: 1;}
@@ -1016,9 +1167,9 @@
 		65% {left: 0%; top: 8%;}
 	}
 
-	.rectangle {animation: rectangle_animation_1366_1439 14s cubic-bezier(.35,.73,.37,.77) infinite;}
+	.rectangle {animation: rectangle_animation_1440 14s cubic-bezier(.35,.73,.37,.77) infinite;}
 
-	@keyframes rectangle_animation_1366_1439 {
+	@keyframes rectangle_animation_1440 {
 		7% {left: 0%; width: 1%;}
 		10% {left: 0%; width: 97%;}
 		57% {left: 0%; width: 97%;}
@@ -1026,9 +1177,9 @@
 		100% {left: 97%; width: 1%;}
 	}
 
-	.rectangle2 { animation: rectangle_animation2_1366_1439 14s infinite cubic-bezier(.35,.73,.37,.77);}
+	.rectangle2 { animation: rectangle_animation2_1440 14s infinite cubic-bezier(.35,.73,.37,.77);}
 
-	@keyframes rectangle_animation2_1366_1439 {
+	@keyframes rectangle_animation2_1440 {
 		23.5% {width: 1%; left: 97%;}
 		26.5% {left: 1%; width: 97%;}
 		73.5% {left: 1%; width: 97%;}
@@ -1036,9 +1187,9 @@
 		100% {left: 1%; width: 1%;}
 	}
 
-	.d, .o, .i, .g, .r, .a, .l, .i2, .s, .soft_sign {animation: letter_opacity_1366_1439 28s linear infinite; }
+	.d, .o, .i, .g, .r, .a, .l, .i2, .s, .soft_sign {animation: letter_opacity_1440 28s linear infinite; }
 
-	@keyframes letter_opacity_1366_1439 {
+	@keyframes letter_opacity_1440 {
 		21% {opacity: 1;}
 		25% {opacity: 0;}
 		72% {opacity: 0;}
@@ -1046,9 +1197,9 @@
 		100% {opacity: 1;}
 	}
 
-	.o2, .p, .e, .n, .t, .a2, .l2, .k {animation: letter_opacity2_1366_1439 28s linear infinite;}
+	.o2, .p, .e, .n, .t, .a2, .l2, .k {animation: letter_opacity2_1440 28s linear infinite;}
 
-	@keyframes letter_opacity2_1366_1439 {
+	@keyframes letter_opacity2_1440 {
 		21% {opacity: 0;}
 		25% {opacity: 1;}
 		55% {opacity: 1;}
@@ -1057,14 +1208,11 @@
 		100% {opacity: 0;}
 	}
 
-	.d37_2, .d42_1, .d31_2, .d36_2, .d3_2, .d27_2, .d10_2 {display: none;}
+	.d40, .d41, .d42, .d43 {width: 7% !important; margin-left: 8% !important; height: 80%; margin-top: 7% !important; background: black; border-radius: 50px;}
+	.d39 {width: 7% !important; margin-left: 18% !important; height: 80%; margin-top:7% !important; background: black; border-radius: 50px;}
+	.d43_2 {display: none !important;}
+	.d2 {width: 35% !important;}
 
-}
-
-@media only screen and (min-width: 1440px) and (max-width: 1679px) {
-	.d12 {border-radius: 170px;}
-	.d17, .d49, .d12 {border: 55px solid black;}
-	.d37_2, .d42_1, .d31_2, .d36_2, .d3_2, .d27_2, .d10_2 {display: none;}
 }
 
 @media only screen and (min-width: 1680px) {
@@ -1079,9 +1227,23 @@
 	.s1 .d42_1 {height: 7%; width: 34%; margin-top: 154%; margin-left: 24%; background: black; border-radius: 50px; animation: restdisappears 10s infinite linear;}
 	.s1 .d43_1 {height: 9%; width: 11%; background: #F655A0; position: absolute; right: 0%; bottom: 21%;}
 	.s1 .d6 {margin-top: 1%; margin-left: 53%; width: 27%;}
-	.s1 .d3_2 {height: 23%; width: 22%; margin-top: 83%; margin-left: 57%; background: #00B6F4; border-radius: 50px; animation: turntoblack 2s infinite ease-in;}
+	.s1 .d3_2 {height: 23%; width: 22%; margin-top: 83%; margin-left: 57%; background: #00B6F4; border-radius: 50px; animation: turntoblack_1680 2s infinite ease-in;}
 	/* .d3, .d4, .d5 { animation: turntoblack 2s infinite ease-in;} */
 	.s1 .red_lamp {width: 64%; margin-left: 15%; margin-top: 192%;}
+
+	.d3, .d5, .d25, .d27 {animation: turntoblue_1680 2s infinite ease-in;}
+	.d4, .d26 {animation: turntoblack_1680 2s infinite ease-in;}
+
+	@keyframes turntoblack_1680 {
+	  49% {background-color: #00B6F4}
+	  50% {background-color: black}
+	  100% {background-color: black}
+	}
+	@keyframes turntoblue_1680 {
+	  49% {background-color:  black}
+	  50% {background-color: #00B6F4}
+	  100% {background-color: #00B6F4}
+	}
 
 	@keyframes skeletappears_1680 {
 	  49%{opacity: 0}
@@ -1090,7 +1252,7 @@
 	  60%{opacity: 0}
 	}
 
-	.d1, .d2, .d8_2, .d11, .d13, .d15, .d17, .d19, .d20, .d21, .d22, .d23, .d24, .d28, .d29, .d30, .d31, .d1_2, .d2_2, .d3_2, .d4_2, .d5_2, .d6_2, .d7_2, .d8_2_2, .d9_2 {animation: restdisappears_1680 10s infinite linear;}
+	.d1, .d2, .d8_2, .d11, .d13, .d15, .d17, .d19, .d20, .d21, .d22, .d23, .d28, .d29, .d30, .d31, .d1_2, .d2_2, .d3_2, .d4_2, .d5_2, .d6_2, .d7_2, .d8_2_2, .d9_2 {animation: restdisappears_1680 10s infinite linear;}
 	@keyframes restdisappears_1680 {
 		49%{opacity: 1}
 		50%{opacity: 0}
@@ -1135,6 +1297,8 @@
 	.s7 .d42 {margin-left: 8%;}
 	.s7 .d43 {margin-left: 8%;} */
 	/* .d43_2 {margin-left: 9%; background: black; border-radius: 50px;} */
+	.d40, .d41, .d42, .d43, .d43_2 {width: 6% !important; margin-left: 8% !important; height: 80%; margin-top: 7% !important; background: black; border-radius: 50px;}
+	.d39 {width: 6% !important; margin-left: 16% !important; height: 80%; margin-top:7% !important; background: black; border-radius: 50px;}
 
 	.s7 .d44, .d444 {width: 17.2%; height: 23%; margin-left: 34.8%; margin-top: 5%;}
 	.s7 .d47 {width: 3%; margin-left: 56.5%;}
