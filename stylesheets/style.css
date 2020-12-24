@@ -1166,7 +1166,6 @@ body::before {
 .d57, .d58, .d59 {animation-play-state: running;}
 .d57:hover, .d58:hover, .d59:hover {animation-play-state: paused;}
 
-
 @keyframes colorchange4 {
   19%{background: #F655A0;}
   20%{background: black;}
